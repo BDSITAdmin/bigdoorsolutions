@@ -1,5 +1,8 @@
 import Homepic from './assets/home.png';
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from
+
+
+"react-icons/fa";
 import Card from './components/cardbox';
 
 
