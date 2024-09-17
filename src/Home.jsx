@@ -4,6 +4,7 @@ import { FaArrowRight } from
 
 "react-icons/fa";
 import Card from './components/cardbox';
+import cardData from './lib/carddata';
 
 
 function Home() {
@@ -40,8 +41,17 @@ function Home() {
                social media marketing, and more. Whether you're a 
               startup or an established enterprise, our experts will craft solutions that drive results.</p>
           </div>
-          <div className="">
-            <Card/>
+          <div className=" flex flex-wrap gap-4">
+          {cardData.map((card, index) => (
+                <Card
+                    key={index}
+                    imgSrc={card.imgSrc}
+                    heading={card.heading}
+                    paragraph={card.paragraph}
+                    bgColor={card.bgColor}
+                />
+            ))}
+
           </div>
         </div>
 
