@@ -13,6 +13,7 @@ export default {
         doggerblue:'#2E89E5',//Add second button bg
         DavyGrey: '#5A5A5A', //Add heading colour
         black:'#1D2026', //Add footer bg
+        lightblack: '#6E7485',
         lightpurple:'#EBEBFF',
         lightgreen:'#E1F7E3',
         lightorange:'#FFF2E5',
