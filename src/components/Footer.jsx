@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
           {/* Left Section: Logo and Social Media */}
           <div className="mb-8 lg:mb-0 text-center lg:text-left">
-            <Link to="/" className="block w-32 mb-4 mx-auto lg:mx-0">
+            <Link to="/" className="block w-32 mb-4  lg:mx-0">
               <img src={BigdoorLogo} alt="BigDoor Logo" />
             </Link>
             <p className="text-gray-400 mb-4">

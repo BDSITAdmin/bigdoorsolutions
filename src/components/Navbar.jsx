@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <div>
           <Link to="/" className="cursor-pointer">
-            <img src={Logo} alt="Logo" className="w-24" />
+            <img src={Logo} alt="Logo" className="w-24 lg:w-30 xl:w-36" />
           </Link>
         </div>
         <div className="md:hidden">
@@ -24,7 +24,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="text-2xl" />
           </button>
         </div>
-        <div className="hidden md:flex items-center gap-10 font-inter text-[16px]">
+        <div className="hidden md:flex items-center gap-10 font-inter md:text-xs lg:text-sm xl:text-base ">
           <Link to="/it-solutions" className="cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
