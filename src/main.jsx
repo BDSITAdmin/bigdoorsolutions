@@ -1,5 +1,6 @@
 import HomePage from './Home.jsx';
 import AboutUs from './AboutUs.jsx';
+import ContactUs from './ContactUs.jsx';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Navbar from './components/Navbar.jsx';
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
     <Routes> 
       <Route path="/" element={<HomePage />} />   
       <Route path="/AboutUs" element={<AboutUs />} />
+      <Route path="/ContactUs" element={<ContactUs />} />
     </Routes>
     <FooterSection/>
     <Footer/> 
