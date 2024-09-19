@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutImage from './assets/Rectangle 327.png';
-import FounderImage from './assets/Founder.png';
+import FounderImage from './assets/Group 81.png';
+import TeamMember from './components/TeamMember';
 
 const AboutUs = () => {
   return (
@@ -113,6 +114,7 @@ const AboutUs = () => {
         </div>
 
       </div>
+      <TeamMember/>
 
     </>
   );
