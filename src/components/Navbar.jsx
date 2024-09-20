@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link to="/AboutUs" className="cursor-pointer hover:text-blue-600">
             About Us
           </Link>
-          <Link to="/contact-us" className="cursor-pointer hover:text-blue-600">
+          <Link to="/ContactUs" className="cursor-pointer hover:text-blue-600">
             Contact Us
           </Link>
         </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link to="/AboutUs" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
             About Us
           </Link>
-          <Link to="/contact-us" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
+          <Link to="/ContactUs" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
             Contact Us
           </Link>
         </div>
