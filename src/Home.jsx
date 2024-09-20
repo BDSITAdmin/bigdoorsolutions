@@ -1,10 +1,13 @@
 import Homepic from './assets/home.png';
+
 import Homepic4 from './assets/Frame 320.png';
 // import Homepic3 from './assets/Group 501.png';
 // import icons from './assets/icon.png';
 // import icons1 from './assets/icon1.png';
 // import icons2 from './assets/Progress circle.png';
 import Homepic5 from './assets/Group 502.png';
+
+
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import Card from './components/cardbox';
 import cardData from './lib/carddata';
@@ -12,6 +15,7 @@ import cardData from './lib/carddata';
 function Home() {
   return (
     <>
+
       <div>
         <div className="md:relative">
           <img src={Homepic} alt="Home pic" className="w-full h-auto" />
@@ -20,19 +24,25 @@ function Home() {
               IT Solutions that drive success
             </h1>
             <p className='mt-[20px] lg:mt-[28px]  md:text-white text-sm md:text-xs lg:text-sm xl:text-lg '>
+
+     
               We aim to create a space where curiosity about technology grows without
               the fear of staying behind in race. With our expertise, we are dedicated to analyzing
               upcoming trends and embracing new technologies with agility.
             </p>
             <button
               type="button"
+
               className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
+
+             
             >
               Get Started
               <FaArrowRight className="ml-2 h-4 w-4" />
             </button>
           </div>
         </div>
+
 
         <div className="py-5 lg:py-[40px] px-5 lg:px-[40px] xl:px-[120px]">
           <div className="flex flex-col items-center">
@@ -42,6 +52,8 @@ function Home() {
               Our comprehensive range of services includes web design, mobile app development, SEO,
               social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
             </p>
+
+      
           </div>
 
           <div className="flex flex-wrap gap-2 md:gap-4 mt-4 justify-center">
@@ -56,6 +68,7 @@ function Home() {
             ))}
           </div>
         </div>
+
 
         <div className="md:py-5 px-5 lg:px-[35px] xl:px-[120px] flex flex-wrap bg-doggerblue/5">
           <div className="w-full md:w-6/12 mb-5 lg:mb-0">
