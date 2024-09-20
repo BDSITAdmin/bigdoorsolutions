@@ -17,7 +17,9 @@ const Navbar = () => {
         <div>
           <Link to="/" className="cursor-pointer">
 
+
             <img src={Logo} alt="Logo" className="w-24 lg:w-30 xl:w-36" />
+
 
           </Link>
         </div>
@@ -32,7 +34,7 @@ const Navbar = () => {
           <Link to="/it-solutions" className="cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
-          <Link to="/internship-programs" className="cursor-pointer hover:text-blue-600">
+          <Link to="/ProgramDetails" className="cursor-pointer hover:text-blue-600">
             Internship Programs
           </Link>
           <Link to="/AboutUs" className="cursor-pointer hover:text-blue-600">
@@ -48,7 +50,7 @@ const Navbar = () => {
           <Link to="/it-solutions" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
-          <Link to="/internship-programs" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
+          <Link to="/ProgramDetails" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
             Internship Programs
           </Link>
           <Link to="/AboutUs" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">

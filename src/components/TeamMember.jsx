@@ -15,7 +15,7 @@ const TeamMembers = () => {
   return (
     <div className="text-center px-4 py-8 md:px-8 lg:px-16">
       <h2 className="text-Azure font-sora text-4xl font-semibold leading-[50.4px] mb-4">Our Team <span className="text-doggerblue">Members</span> </h2>
-      <p className="mb-8 text-center font-inter text-sm font-normal leading-[16.94px] text-soldcolour mx-auto w-3/4 ">
+      <p className="mb-8 text-center font-inter text-sm font-normal leading-[16.94px] text-soldcolour mx-auto sm:w-3/4 ">
         At BigDoor IT Solutions, 12+ industry leaders with expertise in areas like Content Management, Cloud Computing, DevOps Engineering, Program Management, and People Management will lead you on your path to excellence.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
@@ -28,13 +28,18 @@ const TeamMembers = () => {
             />
             <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
             <button 
-              className="bg-customgradient  shadow-[1px_1px_0_0_white] custom-border-shadow text-custom-white  p-2 rounded-full w-full"
+              className="bg-customgradient  shadow-[1px_1px_0_0_white] custom-border-shadow text-custom-white  p-2 rounded-full w-full mt-4"
               onClick={() => alert(`More details about ${member.name}`)}
             >
               {member.title}
             </button>
+            <span className="block w-auto mt-12 h-[2px] bg-gradient-to-r from-transparent via-lightbrown to-transparent "></span>
+
+
             <div className="flex justify-center gap-2 mt-4">
+              
               <a href="#" className="bg-BleuDe text-blue-500 p-2 rounded-full" aria-label={`Follow ${member.name} on Instagram`}>
+                
                 <img src={Instagram} alt="Instagram" className="w-[50px] h-[50px]" />
               </a>
               <a href="#" className="bg-BleuDe text-blue-500 p-2 rounded-full" aria-label={`Follow ${member.name} on Twitter`}>

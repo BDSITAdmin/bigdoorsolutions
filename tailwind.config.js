@@ -1,3 +1,5 @@
+import { FaBlackTie } from 'react-icons/fa';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -31,10 +33,11 @@ export default {
         Azure: '#333333',
         cackclour:'#FAE4D1',
         soldcolour:'#808080',
+        BlackTie: '#000000',
       },
       fontFamily: {
         sora:['Sora','sans-serif'],
-        inter:['Inter', 'sans-serif'], 
+        inter:['Inter','sans-serif'], 
       },
       backgroundImage: {
         customgradient: 'linear-gradient(100.78deg, rgba(255, 255, 255, 0.5) 2.68%, rgba(255, 255, 255, 0) 89.42%)',

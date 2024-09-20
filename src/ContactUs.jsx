@@ -4,6 +4,7 @@ import calllogo from './assets/call.png';
 import location from './assets/location.png';
 import mailbox from './assets/mailbox.png';
 import { FaUser, FaEnvelope, FaCommentDots } from 'react-icons/fa';
+import ProgramDetails from './internship';
 
 
 const ContactSection = () => {
