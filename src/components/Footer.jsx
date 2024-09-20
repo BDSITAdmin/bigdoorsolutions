@@ -66,7 +66,7 @@ const Footer = () => {
             {/* Services */}
             <div>
               <h4 className="text-lg font-semibold mb-4">SERVICES</h4>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-[#8C94A3]">
                 <li><a href="#" className="hover:text-white">IT Training & Services Program</a></li>
                 <li><a href="#" className="hover:text-white">Enterprise App Development (Mobile & Web)</a></li>
                 <li><a href="#" className="hover:text-white">Process Training & Certifications</a></li>
@@ -77,7 +77,7 @@ const Footer = () => {
             {/* Internship Program */}
             <div>
               <h4 className="text-lg font-semibold mb-4">INTERNSHIP PROGRAM</h4>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-[#8C94A3]">
                 <li><a href="#" className="hover:text-white">Full Stack Web Development</a></li>
                 <li><a href="#" className="hover:text-white">DevOps</a></li>
                 <li><a href="#" className="hover:text-white">Contact</a></li>
@@ -88,7 +88,7 @@ const Footer = () => {
             {/* Other Links */}
             <div>
               <h4 className="text-lg font-semibold mb-4">OTHER LINKS</h4>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-[#8C94A3]">
                 <li><a href="#" className="hover:text-white">Help Center</a></li>
                 <li><a href="#" className="hover:text-white">FAQs</a></li>
                 <li><a href="#" className="hover:text-white">Terms & Conditions</a></li>
