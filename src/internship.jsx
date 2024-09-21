@@ -30,10 +30,7 @@ const ProgramDetails = () => {
         <h2 className="text-sm text-AliceBlue font-semibold tracking-wide uppercase">Program Details</h2>
         <h1 className="mt-2 text-3xl font-bold text-BlackTie sm:text-4xl">Why You Should <span className="text-[#3E93E7]">Take This Opportunity</span></h1>
         <p className="mt-4 max-w-6xl text-sm text-[#000000] mx-auto">Our Bootcamp offers a structured, industry-validated curriculum with over 800 hours of hands-on learning, real-world projects, and expert-led sessions to elevate your IT career.</p>
-
-        {/* Five boxes per row */}
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
-          {/* Cards */}
           {iconImages.map((item, index) => (
             <div key={index} className="flex p-6 bg-white shadow rounded-lg">
               <img src={item.src} alt={item.text} className="h-12 w-12 mr-4" />
