@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-10 font-inter md:text-xs lg:text-sm xl:text-base ">
 
-          <Link to="/it-solutions" className="cursor-pointer hover:text-blue-600">
+          <Link to="/OurServices" className="cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
           <Link to="/ProgramDetails" className="cursor-pointer hover:text-blue-600">

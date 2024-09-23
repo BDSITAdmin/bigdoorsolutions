@@ -52,7 +52,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div>
               <h4 className="text-lg font-semibold mb-4">SERVICES</h4>
               <ul className="space-y-2 text-[#8C94A3]">
