@@ -9,6 +9,8 @@ import Frame7 from './assets/Frame6.png';
 import Frame8 from './assets/Frame7.png';
 import Frame9 from './assets/Frame8.png';
 import Frame10 from './assets/Frame9.png';
+import Pathway from './components/Pathway';
+import EligibilitySection from './components/EligibilitySection';
 
 const ProgramDetails = () => {
   const iconImages = [
@@ -24,7 +26,7 @@ const ProgramDetails = () => {
     { src: Frame10, number: '20+', text: ' Real-world projects' },
   ];
 
-  return (
+  return (<>
     <div className="bg-blue-50 py-16">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-sm text-AliceBlue font-semibold tracking-wide uppercase">Program Details</h2>
@@ -32,7 +34,7 @@ const ProgramDetails = () => {
         <p className="mt-4 max-w-6xl text-sm text-[#000000] mx-auto">Our Bootcamp offers a structured, industry-validated curriculum with over 800 hours of hands-on learning, real-world projects, and expert-led sessions to elevate your IT career.</p>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {iconImages.map((item, index) => (
-            <div key={index} className="flex p-6 bg-white shadow rounded-lg">
+            <div key={index} className="flex p-2 bg-white shadow rounded-lg">
               <img src={item.src} alt={item.text} className="h-12 w-12 mr-4" />
               <span className="text-[#B4835A] text-sm font-medium">{item.number}</span>
               <span className="text-gray-800 text-sm font-medium">{item.text}</span>
@@ -41,6 +43,9 @@ const ProgramDetails = () => {
         </div>
       </div>
     </div>
+    <Pathway/>
+    <EligibilitySection/>
+    </>
   );
 };
 

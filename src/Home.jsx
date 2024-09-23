@@ -68,8 +68,6 @@ function Home() {
             ))}
           </div>
         </div>
-
-
         <div className="md:py-5 px-5 lg:px-[35px] xl:px-[120px] flex flex-wrap bg-doggerblue/5">
           <div className="w-full md:w-6/12 mb-5 lg:mb-0">
             <img src={Homepic4} alt='homepic' className="w-full h-auto" />

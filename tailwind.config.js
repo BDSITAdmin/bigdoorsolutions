@@ -44,7 +44,7 @@ export default {
       },
       boxShadow: {
         'custom': '0px 8px 50px 0px rgba(64, 84, 174, 0.2)',
-
+        'blue':' 0px 4px 50px 0px rgba(29, 32, 38, 0.05)',
       },
     },
   },
