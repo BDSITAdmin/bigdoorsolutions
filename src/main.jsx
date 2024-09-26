@@ -8,7 +8,7 @@ import './index.css';
 import FooterSection from './components/footerSection.jsx';
 import Footer from './components/footer.jsx';
 import ProgramDetails from './internship.jsx';
-import  OurServices from './OurServices.jsx';
+import  ItServices from './ItServices.jsx';
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/ProgramDetails" element={<ProgramDetails/>} />
-      <Route path="/OurServices" element={<OurServices/>} />
+      <Route path="/ItServices" element={<ItServices/>} />
       
     </Routes>
     <FooterSection/>
