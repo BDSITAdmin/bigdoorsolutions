@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-10 font-inter md:text-xs lg:text-sm xl:text-base ">
 
-          <Link to="/OurServices" className="cursor-pointer hover:text-blue-600">
+          <Link to="/ItServices" className="cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
           <Link to="/ProgramDetails" className="cursor-pointer hover:text-blue-600">
@@ -47,7 +47,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden mt-4 space-y-4 font-inter text-[16px] text-center">
-          <Link to="/it-solutions" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
+          <Link to="/ItServices" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
             IT Solutions
           </Link>
           <Link to="/ProgramDetails" onClick={toggleMenu} className="block cursor-pointer hover:text-blue-600">
