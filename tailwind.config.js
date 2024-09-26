@@ -43,8 +43,8 @@ export default {
         customgradient: 'linear-gradient(100.78deg, rgba(255, 255, 255, 0.5) 2.68%, rgba(255, 255, 255, 0) 89.42%)',
       },
       boxShadow: {
-        'custom': '0px 8px 50px 0px rgba(64, 84, 174, 0.2)',
-        'blue':' 0px 4px 50px 0px rgba(29, 32, 38, 0.05)',
+        custom: '0px 8px 50px 0px rgba(64, 84, 174, 0.2)',
+        blue:' 0px 4px 50px 0px rgba(29, 32, 38, 0.5)',
       },
     },
   },

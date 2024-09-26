@@ -2,7 +2,7 @@ import React from 'react';
 import calllogo from './assets/call.png';
 import location from './assets/location.png';
 import mailbox from './assets/mailbox.png';
-import { FaUser, FaEnvelope, FaCommentDots } from 'react-icons/fa';
+import ContactForm from './components/contactForm';
 
 const ContactSection = () => {
     return (
@@ -21,57 +21,13 @@ const ContactSection = () => {
                     </div>
                 </section>
                 <section className="sm:absolute top-[90px] sm:right-16 px-4 sm:px-0">
-                    <div className="w-full sm:w-[538px] bg-white p-6 rounded-lg shadow-lg shadow-custom">
+                    <div className="w-full sm:w-[538px] bg-white p-6 rounded-lg  shadow-custom">
                         <h2 className="text-2xl sm:text-3xl font-semibold text-DavyGrey mb-4 leading-[40px] sm:leading-[45px]">Get in touch</h2>
                         <p className="text-Olive mb-6 text-[14px] font-normal leading-[21px]">
                             Have an idea? Fill in the details below, and we’ll get in touch with you at the earliest.
                         </p>
 
-                        <form>
-                            <div className="mb-4">
-                                <div className="flex items-center border rounded-md p-2 bg-SeaGreen">
-                                    <FaUser className="text-Azure mr-2" />
-                                    <input
-                                        type="text"
-                                        className="bg-transparent outline-none w-full border-SeaGreen"
-                                        placeholder="Full Name"
-                                    />
-                                </div>
-                            </div>
-
-                            <div className="mb-4">
-                                <div className="flex items-center border rounded-md p-2 bg-SeaGreen">
-                                    <FaEnvelope className="text-Azure mr-2" />
-                                    <input
-                                        type="email"
-                                        className="bg-transparent outline-none w-full border-SeaGreen"
-                                        placeholder="Email Address"
-                                    />
-                                </div>
-                            </div>
-
-                            <div className="mb-4">
-                                <div className="flex items-start border rounded-md p-2 bg-SeaGreen">
-                                    <FaCommentDots className="text-Azure mt-2 mr-2" />
-                                    <textarea
-                                        className="bg-transparent outline-none w-full"
-                                        placeholder="Message"
-                                        rows="4"
-                                    ></textarea>
-                                </div>
-                            </div>
-
-                            <button
-                                type="submit"
-                                className="w-full bg-BleuDe text-white py-3 rounded-md font-medium hover:bg-blue-700 transition duration-300"
-                            >
-                                Send Message <span className="ml-2">→</span>
-                            </button>
-
-                            <p className="text-gray-500 text-[12px] font-normal mt-4">
-                                *Any details shared through this form shall remain private to Bigdoor Solutions and will not be disclosed to any third party or external company.
-                            </p>
-                        </form>
+                        <ContactForm/>
                     </div>
                 </section>
                 <section className="py-12 bg-background text-foreground px-4">
