@@ -5,7 +5,7 @@ import backgroundImage from '../assets/image 1.png';
 const ExploreCourse = () => {
   return (
     <section
-      className="relative bg-cover bg-center md:h-[400px] sm:h-[500px] md:h-[600px] flex items-center justify-center"
+      className="relative bg-cover bg-center md:h-[400px] sm:h-[500px]  flex items-center justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
