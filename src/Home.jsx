@@ -11,8 +11,13 @@ import Homepic5 from './assets/Group 502.png';
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import Card from './components/cardbox';
 import cardData from './lib/carddata';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  const navigate = useNavigate();
+  const handleNavigation = () => {
+      navigate('/CourseDetails'); // Replace '/new-page' with the actual path you want
+    };
   return (
     <>
 
@@ -33,8 +38,9 @@ function Home() {
             <button
               type="button"
 
-              className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
-
+              className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 
+              lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
+              onClick={handleNavigation}
              
             >
               Get Started
