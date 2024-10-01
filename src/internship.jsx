@@ -18,6 +18,8 @@ import ourservices4 from './assets/ourservices4.png';
 import CheckCircle from './assets/CheckCircle.png';
 import AboutImage from './assets/Rectangle 327.png';
 import EligibilitySection from './components/EligibilitySection';
+import WebDevelopmentSection from './ServicesLanding'
+
 
 const data = [
   {
@@ -164,6 +166,8 @@ const ProgramDetails = () => {
       </section>
       <Pathway />
       <EligibilitySection />
+      <WebDevelopmentSection />
+      
 
     </>
   );
