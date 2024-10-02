@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
   const handleNavigation = () => {
-      navigate('/CourseDetails'); // Replace '/new-page' with the actual path you want
+      navigate('/course'); // Replace '/new-page' with the actual path you want
     };
   return (
     <>
