@@ -3,13 +3,13 @@ import { FaArrowRight } from "react-icons/fa";
 const Card = ({ imgSrc, heading, paragraph, bgColor }) => {
     return (
         <div
-            className={` sm:w-[48%] lg:w-[31%] md:p-3 p-5 xl:p-5 mt-[10px] ${bgColor} flex flex-col items-center`}
+            className={`w-full flex flex-col p-4 ${bgColor}  items-center`}
         >
             <img src={imgSrc} alt="" />
-            <h3 className='text-[16px] md:text-[14px] lg:text-[12px] font-semibold font-inter py-3'>
+            <h3 className='text-[16px] md:text-[14px] lg:text-[16px] font-semibold font-inter py-3'>
                 {heading}
             </h3>
-            <p className='text-[14px] md:text-xs text-center'>
+            <p className='text-[14px] text-center'>
                 {paragraph}
             </p>
             <button
