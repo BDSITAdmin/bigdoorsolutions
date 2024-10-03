@@ -5,7 +5,10 @@ import React, { useState, useEffect } from 'react';
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import Card from './components/cardbox';
 import cardData from './lib/carddata';
-import FooterSection from './components/footerSection'
+import FooterSection from './components/footerSection';
+
+import { useNavigate } from 'react-router-dom';
+
 
 function Home() {
   const [text, setText] = useState(''); 
@@ -38,9 +41,8 @@ function Home() {
     return () => clearTimeout(timeout);
   }, [text, subIndex, isDeleting, index, words]);
 
-import { useNavigate } from 'react-router-dom';
 
-function Home() {
+
   const navigate = useNavigate();
   const handleNavigation = () => {
       navigate('/course'); // Replace '/new-page' with the actual path you want
