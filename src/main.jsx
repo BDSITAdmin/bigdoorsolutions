@@ -20,9 +20,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/ProgramDetails" element={<ProgramDetails/>} />
       <Route path="/ItServices" element={<ItServices/>} />
-      
     </Routes>
-    <FooterSection/>
     <Footer/> 
   </Router>
 );

@@ -169,9 +169,7 @@ const ProgramDetails = () => {
       <Pathway />
       <EligibilitySection />
       <WebDevelopmentSection/>
-      <Welearn/>
-      <Faq/>
-      <Feedback></Feedback>
+      
 
     </>
   );

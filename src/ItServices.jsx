@@ -8,6 +8,7 @@ import AboutImage from './assets/Rectangle 3278.png'
 import Services from './components/Services';
 import OurService from './components/ourServices';
 import ContactForm from './components/contactForm';
+import GetQuick from './components/GetQuick'
 
 
 
@@ -16,7 +17,7 @@ import ContactForm from './components/contactForm';
 const ItServices = () => {
   return (
     <>
-       <section className="flex flex-col items-center justify-between px-8 py-16 bg-blue-500 md:px-8 lg:px-32 md:flex-row">
+      <section className="flex flex-col items-center justify-between px-8 py-16 bg-blue-500 md:px-8 lg:px-32 md:flex-row">
         <div className="max-w-lg text-white">
           <p className="mb-4 font-inter text-base font-semibold leading-[19.36px] tracking-[0.06em] uppercase">Internship Program</p>
           <h1 className="mb-6 font-sora text-4xl font-semibold leading-[50.4px] ">
@@ -46,8 +47,8 @@ const ItServices = () => {
 
 
       <div className="p-4 md:p-6 lg:px-[120px]">
-     
-        
+
+
 
 
 
@@ -94,17 +95,11 @@ const ItServices = () => {
           </div>
 
           <div className="w-full md:w-5/12  bg-white p-4 rounded-lg mt-8 shadow-custom">
-            
-
             <ContactForm />
           </div>
-
         </div>
-
-
-
-
       </div>
+      <GetQuick/>
     </>
   );
 };
