@@ -92,7 +92,7 @@ const ProgramDetails = () => {
             We know the biggest challenge isn’t finding a job—it’s having the right skills. At BigDoor, we break the roadblocks between academic learning and real-world demands. Get yourself industry-ready with our courses, combining technical knowledge, critical thinking, and communication skills in the right way to open doors to big opportunities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
-            <button className="px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-yellow-500">
+            <button className="px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-transparent">
               Our Courses
             </button>
             <button className="px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">

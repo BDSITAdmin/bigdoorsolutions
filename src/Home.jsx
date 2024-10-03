@@ -68,7 +68,7 @@ function Home() {
             <button
               type="button"
               className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 
-              lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
+              lg:px-5 py-2 lg:py-2.5 text-sm font-semibold  hover:bg-black/80"
               onClick={handleNavigation}
 
             >
@@ -83,9 +83,9 @@ function Home() {
 
         <div className="py-5 lg:py-[40px] px-5 lg:px-[40px] xl:px-[120px]">
           <div className="flex flex-col items-center">
-            <h3 className='text-[16px] font-semibold text-blue-700'>IT SOLUTIONS</h3>
-            <h1 className='text-[28px] lg:text-[40px] text-DavyGrey font-semibold font-sora'>What we offer</h1>
-            <p className='text-[14px] text-center px-0'>
+            <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700'>IT SOLUTIONS</h3>
+            <h1 className='text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora'>What we offer</h1>
+            <p className='text-[14px] md:text-xs lg:text-sm xl:text-base text-center font-inter pb-6 px-0'>
               Our comprehensive range of services includes web design, mobile app development, SEO,
               social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
             </p>
@@ -153,7 +153,7 @@ function Home() {
               <h1 className='text-[28px] lg:text-4xl xl:text-5xl font-sora font-semibold text-DavyGrey leading-[34px]'>
                 Learn what your college can’t teach
               </h1>
-              <p className='mt-[18px] md:mt-4 xl:text-lg text-DavyGrey text-[14px]'>
+              <p className='font-inter mt-[18px] md:mt-4 xl:text-lg text-DavyGrey text-[14px]'>
                 We aim to create a space where curiosity about technology grows without the fear of staying behind in race. With our expertise, we are dedicated to analyzing upcoming trends and embracing new technologies with agility.
               </p>
               <button
