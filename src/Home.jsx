@@ -38,6 +38,14 @@ function Home() {
     return () => clearTimeout(timeout);
   }, [text, subIndex, isDeleting, index, words]);
 
+import { useNavigate } from 'react-router-dom';
+
+function Home() {
+  const navigate = useNavigate();
+  const handleNavigation = () => {
+      navigate('/course'); // Replace '/new-page' with the actual path you want
+    };
+
   return (
     <>
 
@@ -59,9 +67,9 @@ function Home() {
             </p>
             <button
               type="button"
-
-              className=" relative sm:top-36 inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
-
+              className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 
+              lg:px-5 py-2 lg:py-2.5 text-sm font-semibold text-white hover:bg-black/80"
+              onClick={handleNavigation}
 
             >
               Get Started
@@ -81,11 +89,8 @@ function Home() {
               Our comprehensive range of services includes web design, mobile app development, SEO,
               social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
             </p>
-
-
           </div>
-
-          <div className="flex flex-wrap justify-center gap-2 mt-4 md:gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {cardData.map((card, index) => (
               <Card
                 key={index}

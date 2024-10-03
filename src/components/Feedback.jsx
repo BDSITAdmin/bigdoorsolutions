@@ -19,7 +19,7 @@ const Feedback = () => {
   ];
 
   return (
-    <div className="container max-w-4xl px-4 py-8 mx-auto">
+    <div className="container max-w-4xl  py-8 mx-auto">
       <h2 className="mb-6 text-2xl font-bold">Students Feedback</h2>
       
       <div className="flex justify-end mb-4">

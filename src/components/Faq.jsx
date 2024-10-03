@@ -23,9 +23,9 @@ const Faq = () => {
 
     return (
         <>
-            <div className='container max-w-4xl px-4 py-8 mx-auto mb-12'>
+            <div className='container max-w-4xl  py-8 mx-auto mb-12'>
                 <h2 className="mb-6 text-2xl font-bold text-left">Frequently Asked Questions</h2>
-                <div className="container max-w-4xl px-12 py-8 mx-auto mb-4 mb-12 border border-gray-300 rounded-lg shadow-sm">
+                <div className="container max-w-4xl px-12 py-8 mx-auto  mb-12 border border-gray-300 rounded-lg shadow-sm">
 
                     {faqs.map((faq, index) => (
                         <div key={index} className="py-4 border-b border-gray-300 ">

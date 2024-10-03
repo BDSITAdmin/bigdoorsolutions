@@ -2,9 +2,10 @@ import React from 'react';
 import Services from './components/Services';
 import CreateBuild from './lib/CreateBuild';
 import Group from './assets/Group 503.png'
-import BuildImage1 from './assets/image 29.png';
-import BuildImage2 from './assets/image 30.png';
-import BuildImage3 from './assets/image 28.png';
+import BuildImage1 from './assets/image a29.jpg';
+import BuildImage2 from './assets/image a30.jpg';
+import BuildImage3 from './assets/image a28.jpg';
+
 
 const WebDevelopmentSection = () => {
 

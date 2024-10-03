@@ -4,7 +4,7 @@ import BoxImage from '../assets/CheckCircle.png'
 
 const Welearn = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen p-4">
+        <div className="flex items-center justify-center min-h-screen py-4">
             <div className="w-full max-w-6xl p-6 bg-[#E1F7E366] rounded-lg shadow-lg">
                 <h1 className="mb-6 font-semibold text-left font-sora text-[24px] leading-32px tracking">What you will learn in this course</h1>
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
