@@ -18,15 +18,15 @@ const ItServices = () => {
     <>
        <section className="flex flex-col items-center justify-between px-8 py-16 bg-blue-500 md:px-8 lg:px-32 md:flex-row">
         <div className="max-w-lg text-white">
-          <p className="mb-4 font-inter text-base font-semibold leading-[19.36px] tracking-[0.06em] uppercase">Internship Program</p>
-          <h1 className="mb-6 font-sora text-4xl font-semibold leading-[50.4px] ">
-            Learn what your college can’t teach
+          <p className="font-inter text-[16px] text-white mb-4 xl:text-xl xl:mb-6 font-semibold uppercase">Our Services</p>
+          <h1 className="text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl  text-white font-semibold font-sora">
+          Our cost effective IT Solutions
           </h1>
-          <p className="mb-6 font-inter text-sm font-light leading-[21px] ">
+          <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter mt-8 pb-6 px-0 ">
             We know the biggest challenge isn’t finding a job—it’s having the right skills. At BigDoor, we break the roadblocks between academic learning and real-world demands. Get yourself industry-ready with our courses, combining technical knowledge, critical thinking, and communication skills in the right way to open doors to big opportunities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
-            <button className="px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-yellow-500">
+            <button className="px-6 py-3 font-semibold text-black transition border border-yellow-400 duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:text-yellow-400 ">
               Our Courses
             </button>
             <button className="px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
@@ -52,13 +52,13 @@ const ItServices = () => {
 
 
         <div className="flex flex-col py-5  items-center">
-          <h3 className='text-[16px] font-semibold text-blue-700'>WHAT WE OFFER</h3>
+          <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700'>WHAT WE OFFER</h3>
           <div className="">
-            <h1 className='text-[28px] lg:text-[40px] text-DavyGrey font-semibold font-sora'>Our
+            <h1 className='text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora'>Our
               <span className=' text-[#3E93E7] ml-2 '>Services</span> </h1>
           </div>
 
-          <p className='text-[14px] text-center px-0'>
+          <p className='text-[14px] md:text-xs lg:text-sm xl:text-base text-center font-inter pb-6 px-0'>
             Our comprehensive range of services includes web design, mobile app development, SEO,
             social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
           </p>
@@ -70,22 +70,22 @@ const ItServices = () => {
         <div className=" py-5">
           <div className="flex flex-col  items-center">
             <div className="flex flex-row py-10 ">
-              <h1 className='text-xl md:text-[28px] lg:text-[40px] text-DavyGrey font-semibold font-sora'>What we will
+              <h1 className='text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora'>What we will
                 <span className='text-[#3E93E7] ml-2'>help you with?</span> </h1>
             </div>
           </div>
           <Services />
         </div>
         <div className=" bg-[#E0ECFF80]/50 rounded-3xl flex flex-col md:flex-row md:p-8 mt-10 items-center ">
-          <div className="w-full md:w-6/12 md:mr-8 ">
-            <div className="w-9/12 ml-8 mt-5">
-              <h3 className='text-[16px] font-semibold text-blue-700'>WHAT WE OFFER</h3>
+          <div className="w-full md:w-6/12 md:mr-1 ">
+            <div className="w-10/12 ml-8 mt-5">
+              <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700 uppercase'>To know more about our services</h3>
               <div className="">
-                <h1 className='text-[28px] lg:text-[40px] text-DavyGrey font-semibold font-sora'>Our
-                  <span className=' text-[#3E93E7] ml-2 '>Services</span> </h1>
+                <h1 className='text-[#3E93E7] text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl  font-semibold font-sora'>Get in touch
+                  <span className=' text-DavyGrey  ml-2 '>with us</span> </h1>
               </div>
 
-              <p className='text-[14px] text-justify px-0'>
+              <p className='text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter pb-6 px-0'>
                 Our comprehensive range of services includes web design, mobile app development, SEO,
                 social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
               </p>
