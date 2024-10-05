@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.mySwiper .swiper-pagination {
+    margin-top: 20px; /* Adjust as needed */
+    bottom: -30px; /* Moves the pagination below the slides */
+  }
+  
 
 
 
