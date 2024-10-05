@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex justify-center space-x-4 lg:justify-start">
               <a className='hover:bg-[#1F5E9E]'>
                 <img  src={Social} alt="Social"
-
+ 
                 target="blank"
                 rel="noopener noreferrer"/>
               </a>

@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
     <Navbar />
     <Routes> 
       <Route path="/" element={<HomePage />} />   
-      <Route path="/AboutUs" element={<AboutUs />} />
+      <Route path="/AboutUs" element={<AboutUs />} />    
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/ProgramDetails" element={<ProgramDetails/>} />
       <Route path="/ItServices" element={<ItServices/>} />

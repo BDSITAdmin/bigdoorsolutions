@@ -93,19 +93,19 @@ const AboutUs = () => {
           <h2 className=" text-Azure font-sora text-4xl font-semibold leading-[50.4px]">
             Our values make us <span className="text-doggerblue">rise above all</span>
           </h2>
-          <p className="mt-4 text-soldcolour font-inter text-sm font-normal leading-[16.94px]">
+          <p className="mt-4 text-soldcolour font-inter text-lg font-normal leading-8">
             At BigDoor IT Solutions, 12+ industry leaders with expertise in areas like Content Management,
             Cloud Computing, DevOps Engineering, Program Management, and People Management will lead you on your path to excellence.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl md:h-[300px] mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="mb-4">
               <img src={Mission} alt="Mission Icon" className="h-12 w-12" />
             </div>
             <h3 className="text-xl font-bold text-CetaceanBlue mb-4 ">Mission</h3>
-            <p className="text-CetaceanBlue text-sm	">
+            <p className="text-CetaceanBlue text-lg	">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
               vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
             </p>
@@ -115,7 +115,7 @@ const AboutUs = () => {
               <img src={Vision} alt="Vision Icon" className="h-12 w-12 " />
             </div>
             <h3 className="text-xl font-bold text-CetaceanBlue mb-4">Vision</h3>
-            <p className="text-CetaceanBlue text-sm	 ">
+            <p className="text-CetaceanBlue text-lg	 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
               vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
             </p>
@@ -125,7 +125,7 @@ const AboutUs = () => {
               <img src={Vision} alt="Values Icon" className="h-12 w-12 " />
             </div>
             <h3 className="text-xl font-bold text-CetaceanBlue mb-4 ">Values</h3>
-            <p className="text-CetaceanBlue text-sm	">
+            <p className="text-CetaceanBlue text-lg	">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
               vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
             </p>

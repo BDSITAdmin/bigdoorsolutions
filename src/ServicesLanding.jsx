@@ -1,5 +1,4 @@
 import React from 'react';
-import Services from './components/Services';
 import CreateBuild from './lib/CreateBuild';
 import Group from './assets/Group 503.png'
 import BuildImage1 from './assets/image a29.jpg';
@@ -74,7 +73,7 @@ const WebDevelopmentSection = () => {
                                 <div
                                     key={index}
                                     className="flex flex-col items-start text-start p-4 border-l-2 border-[#B4835A]
-                                    bg-white  transition-transform transform hover:scale-105 hover:bg-blue-100" // Change background color on hover
+                                    bg-white  transition-transform transform hover:scale-105 hover:bg-blue-100" 
                                 >
                                     <img src={CreateBuild.icon} alt={CreateBuild.title} className="mb-4 w-21 h-21" />
                                     <h3 className="mb-2 text-xl font-semibold leading-5 font-sora">{CreateBuild.title}</h3>

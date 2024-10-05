@@ -13,12 +13,12 @@ const TeamMembers = () => {
   ];
 
   return (
-    <div className="text-center px-4 py-8 md:px-8 lg:px-16">
+    <div className="text-center px-4 py-8 md:px-8 ">
       <h2 className="text-Azure font-sora text-4xl font-semibold leading-[50.4px] mb-4">Our Team <span className="text-doggerblue">Members</span> </h2>
       <p className="mb-8 text-center font-inter text-sm font-normal leading-[16.94px] text-soldcolour mx-auto sm:w-3/4 ">
         At BigDoor IT Solutions, 12+ industry leaders with expertise in areas like Content Management, Cloud Computing, DevOps Engineering, Program Management, and People Management will lead you on your path to excellence.
       </p>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-8">
         {members.map(member => (
           <div key={member.id} className="bg-BleuDe text-white p-4 rounded-lg shadow-lg w-full sm:w-80 md:w-96 lg:w-1/5">
             <img 
