@@ -28,11 +28,9 @@ const ItServices = () => {
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <button className="px-6 py-3 font-semibold text-black transition border border-yellow-400 duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:text-yellow-400 ">
-              Our Courses
+            Request Service 
             </button>
-            <button className="px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
-              Book a call
-            </button>
+           
           </div>
         </div>
         <div className="mt-8 md:mt-0 md:ml-12">
@@ -43,15 +41,7 @@ const ItServices = () => {
           />
         </div>
       </section>
-
-
-
       <div className="p-4 md:p-6 lg:px-[120px]">
-
-
-
-
-
         <div className="flex flex-col py-5  items-center">
           <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700'>WHAT WE OFFER</h3>
           <div className="">

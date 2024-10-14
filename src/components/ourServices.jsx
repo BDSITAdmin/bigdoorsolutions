@@ -5,7 +5,7 @@ import ourservices2 from '../assets/ourservices2.png';
 import ourservices3 from '../assets/ourservices3.png';
 import ourservices4 from '../assets/ourservices4.png';
 import { FaArrowRight } from "react-icons/fa";
-
+import { useNavigate } from 'react-router-dom';
 
 const OurService = ({ imgsrc, text }) => {
     const ourservicesdata = [
@@ -35,6 +35,11 @@ const OurService = ({ imgsrc, text }) => {
         },
 
     ];
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate('ServicesLanding');
+    };
+
     return (
         <>
             <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
@@ -53,10 +58,11 @@ const OurService = ({ imgsrc, text }) => {
                             </h3>
                             <button
                                 type="button"
-                                className="flex  h-10 w-10 items-center border border-blue-500
-                             invisible justify-center rounded-full bg-[#2E89E51A]/10
-                             py-2 text-sm font-semibold text-black group-hover:visible ">
-
+                                className="flex h-10 w-10 items-center border border-blue-500
+                invisible justify-center rounded-full bg-[#2E89E51A]/10
+                py-2 text-sm font-semibold text-black group-hover:visible"
+                                onClick={handleNavigate} // Add click handler here
+                            >
                                 <FaArrowRight className="text-blue-500 h-4 w-4" />
                             </button>
 

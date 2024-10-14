@@ -1,12 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const FooterSection = () => {
+  const navigate = useNavigate();
+const handleNavigation = () => {
+navigate('./ContactUs'); // Replace '/new-page' with the actual path you want
+};
   return (
     <section className="bg-[#272A33] text-white py-12">
-      <div className="container p-4 mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-8  md:mb-0">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">Let’s build something great together.</h2>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg shadow-lg transition-all">
+      <div className="container flex flex-col items-center justify-between p-4 mx-auto md:flex-row">
+        <div className="mb-8 md:mb-0">
+          <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Let’s build something great together.</h2>
+          <button className="px-6 py-2 text-white transition-all bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700"
+          onClick={handleNavigation}
+           >
             Get in touch →
           </button>
         </div>
