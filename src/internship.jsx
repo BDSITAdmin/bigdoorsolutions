@@ -19,7 +19,9 @@ import CheckCircle from './assets/CheckCircle.png';
 import AboutImage from './assets/Rectangle 327.png';
 import EligibilitySection from './components/EligibilitySection';
 import { Link } from 'react-router-dom';
-import { FaArrowRight } from "react-icons/fa";
+import { FiArrowRight } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+
 
 
 const data = [
@@ -94,13 +96,13 @@ const ProgramDetails = () => {
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link to="/course" className="cursor-pointer">
-              <button className="w-auto px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:border hover:border-yellow-400 hover:rounded-md hover:text-yellow-400">
-                
+              <button className="flex items-center w-auto px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:border hover:border-yellow-400 hover:text-yellow-400">
                 Our Courses
-               
+                <FiArrowRight className="ml-2" /> {/* Right Arrow Icon */}
               </button>
             </Link>
-            <button className="px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
+            <button className="flex items-center px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
+              <FiPhone className="mr-2" />
               Book a call
             </button>
           </div>
@@ -113,7 +115,7 @@ const ProgramDetails = () => {
           />
         </div>
       </section>
-      <section className="flex flex-col  items-center justify-center w-full py-12 md:px-12 lg:px-16">
+      <section className="flex flex-col items-center justify-center w-full py-12 md:px-12 lg:px-16">
         <p className="mb-2 font-poppins text-base font-semibold leading-6 tracking-[0.06em] text-[#1F5E9E]">
           GETTING YOU READY FOR EVERCHANGING IT INDUSTRY
         </p>
@@ -129,7 +131,7 @@ const ProgramDetails = () => {
         <div className="mt-2">
           <hr className="h-1 mx-auto bg-[#2E89E5] border-none w-[70px]" />
         </div>
-        <div className="grid grid-cols-1 w-full gap-4 mt-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid w-full grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-3">
           {data.map((item) => (
             <div key={item.id} className={`${item.bgColor} shadow-lg rounded-lg overflow-hidden`}>
               <img src={item.imageUrl} alt={item.title} className="object-cover w-full h-48" />
@@ -153,7 +155,7 @@ const ProgramDetails = () => {
           <div className="px-4 mx-auto text-center max-w-7xl">
             <h2 className="text-sm font-semibold tracking-wide uppercase text-AliceBlue">Program Details</h2>
             <h1 className="mt-2 text-3xl font-bold text-BlackTie sm:text-4xl">Why You Should <span className="text-[#3E93E7]">Take This Opportunity</span></h1>
-            <p className="mt-4 max-w-6xl font-inter text-sm font-medium leading-[21px] text-[#000000] mx-auto">Our Bootcamp offers a structured, industry-validated curriculum with over 800 hours of hands-on learning, real-world projects, and expert-led sessions to elevate your IT career.</p>
+            <p className="mt-4 max-w-6xl font-inter  font-medium leading-[21px] text-[#000000] mx-auto">Our Bootcamp offers a structured, industry-validated curriculum with over 800 hours of hands-on learning, real-world projects, and expert-led sessions to elevate your IT career.</p>
             <div className="mt-2">
               <hr className="h-1 mx-auto bg-[#2E89E5] border-none w-[70px]" />
             </div>
@@ -161,8 +163,8 @@ const ProgramDetails = () => {
               {iconImages.map((item, index) => (
                 <div key={index} className="flex p-2 bg-white rounded-lg shadow">
                   <img src={item.src} alt={item.text} className="w-12 h-12 mr-4" />
-                  <span className="text-[#B4835A] text-[13px] font-medium">{item.number}</span>
-                  <span className="font-inter  text-[11px] leading-[22px]">{item.text}</span>
+                  <span className="text-[#B4835A] text-[13px] font-bold">{item.number}</span>
+                  <span className="font-inter font-semibold text-[13px] leading-[px]">{item.text}</span>
                 </div>
               ))}
             </div>

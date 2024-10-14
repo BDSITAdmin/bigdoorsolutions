@@ -23,18 +23,18 @@ const AboutUs = () => {
 
   return (
     <>
-      <section className="bg-blue-50 py-12 px-4 md:px-16 lg:px-24">
-        <div className="flex flex-col md:flex-row items-center justify-between">
+      <section className="px-4 py-12 bg-blue-50 md:px-16 lg:px-24">
+        <div className="flex flex-col items-center justify-between md:flex-row">
           {aboutData.map((item) => (
-            <div key={item.id} className="md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
-              <h2 className="text-blue-600 text-sm font-semibold mb-2">{item.title}</h2>
-              <h1 className="text-DavyGrey text-3xl md:text-4xl font-bold mb-4">
+            <div key={item.id} className="mb-8 md:w-1/2 lg:w-1/3 md:mb-0">
+              <h2 className="mb-2 text-sm font-semibold text-blue-600">{item.title}</h2>
+              <h1 className="mb-4 text-3xl font-bold text-DavyGrey md:text-4xl">
                 {item.heading}
               </h1>
-              <p className="text-gray-600 text-base">{item.description}</p>
+              <p className="text-base text-gray-600">{item.description}</p>
             </div>
           ))}
-          <div className="md:w-1/3 lg:w-2/4 flex justify-center">
+          <div className="flex justify-center md:w-1/3 lg:w-2/4">
             {aboutData.map((item) => (
               <img
                 key={item.id}
@@ -48,13 +48,13 @@ const AboutUs = () => {
       </section>
 
 
-      <section className="bg-blue-500 text-white py-10 px-6 rounded-lg mx-4 md:mx-12 lg:mx-24 my-10">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="text-5xl md:text-6xl font-bold flex items-center mb-6 md:mb-0">
+      <section className="px-6 py-10 mx-4 my-10 text-white bg-blue-500 rounded-lg md:mx-12 lg:mx-24">
+        <div className="flex flex-col items-center justify-between md:flex-row">
+          <div className="flex items-center mb-6 text-5xl font-bold md:text-6xl md:mb-0">
             <span className=' font-sora font-extrabold sm:text-[128px] text-[60px] sm:leading-[161.28px]'>18+</span>
             <span className="ml-3 font-inter sm:text-4xl text-3xl font-normal leading-[48px] tracking-[0.01em] text-left text-cackclour sm:w-[300px]">Years of experience in IT</span>
           </div>
-          <div className="text-sm md:text-base max-w-md text-center md:text-left">
+          <div className="max-w-md text-sm text-center md:text-base md:text-left">
             <p>
               The IT services that we are running can be segmented by the type of skills employed to deliver the service
               (design, build, run). Technically, these fall into three main categories: business process services,
@@ -63,14 +63,14 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="bg-decoration-white py-12 px-4 md:px-16 lg:px-24">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-2/3 lg:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-AliceBlue text-sm font-semibold mb-2">MEET OUR FOUNDER</h2>
-            <h1 className="text-DavyGrey text-3xl md:text-4xl font-bold mb-4">
+      <section className="px-4 py-12 bg-decoration-white md:px-16 lg:px-24">
+        <div className="flex flex-col items-center justify-between md:flex-row">
+          <div className="mb-8 md:w-2/3 lg:w-1/2 md:mb-0">
+            <h2 className="mb-2 text-sm font-semibold text-AliceBlue">MEET OUR FOUNDER</h2>
+            <h1 className="mb-4 text-3xl font-bold text-DavyGrey md:text-4xl">
               Smita Srivastava – CEO, Founder
             </h1>
-            <p className="text-soldcolour  font-normal leading-6 text-base">
+            <p className="text-base font-normal leading-6 text-soldcolour">
               Smt. Smita Srivastava, the founder and CEO of BigDoor IT Solutions, is a dedicated social worker and a
               certified public speaker, known for her leadership and commitment goals to achieve societal betterment, has
               conducted various social initiatives, including Covid-19 relief efforts. With over a decade of experience,
@@ -79,7 +79,7 @@ const AboutUs = () => {
               conservation, and women empowerment.
             </p>
           </div>
-          <div className="md:w-1/3 lg:w-1/2 flex justify-center">
+          <div className="flex justify-center md:w-1/3 lg:w-1/2">
             <img
               src={FounderImage}
               alt="Smita Srivastava - CEO, Founder"
@@ -88,46 +88,51 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <div className="bg-blue-50 py-16 px-4">
-        <div className="text-center max-w-4xl mx-auto mb-12">
+      <div className="px-4 py-36 bg-blue-50 ">
+        <div className="max-w-4xl mx-auto mb-12 text-center">
           <h2 className=" text-Azure font-sora text-4xl font-semibold leading-[50.4px]">
             Our values make us <span className="text-doggerblue">rise above all</span>
           </h2>
-          <p className="mt-4 text-soldcolour font-inter text-lg font-normal leading-8">
+          <p className="mt-4 text-lg font-normal leading-8 text-soldcolour font-inter">
             At BigDoor IT Solutions, 12+ industry leaders with expertise in areas like Content Management,
             Cloud Computing, DevOps Engineering, Program Management, and People Management will lead you on your path to excellence.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl md:h-[300px] mx-auto">
-          <div className="bg-white p-8 rounded-lg shadow-md">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl md:h-[300px] mx-auto">
+          <div className="p-8 bg-white rounded-lg shadow-md">
             <div className="mb-4">
-              <img src={Mission} alt="Mission Icon" className="h-12 w-12" />
+              <img src={Mission} alt="Mission Icon" className="w-12 h-12" />
             </div>
-            <h3 className="text-xl font-bold text-CetaceanBlue mb-4 ">Mission</h3>
-            <p className="text-CetaceanBlue text-lg	">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
-              vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
+            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue ">Mission</h3>
+            <p className="text-lg text-CetaceanBlue ">
+              To help individuals achieve their career bjectives with an affluent future by adding value to their training initiatives. We believe in building and delivering training experiences that help attain skills to transform participants to performers and make an honest impact where it matters.
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="p-8 bg-white rounded-lg shadow-md">
             <div className="mb-4">
-              <img src={Vision} alt="Vision Icon" className="h-12 w-12 " />
+              <img src={Vision} alt="Vision Icon" className="w-12 h-12 " />
             </div>
-            <h3 className="text-xl font-bold text-CetaceanBlue mb-4">Vision</h3>
-            <p className="text-CetaceanBlue text-lg	 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
-              vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
+            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue">Vision</h3>
+            <p className="text-lg text-CetaceanBlue ">
+              Our vision is to make Bigdoor Technologies a dynamic, vibrant and a value-driven organization to embrace exceptional skills with high quality, accessible training and professional development facilitated by motivated experts to help evolve qualified individuals into Professionals.
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="p-8 bg-white rounded-lg shadow-md">
             <div className="mb-4">
-              <img src={Vision} alt="Values Icon" className="h-12 w-12 " />
+              <img src={Vision} alt="Values Icon" className="w-12 h-12 " />
             </div>
-            <h3 className="text-xl font-bold text-CetaceanBlue mb-4 ">Values</h3>
-            <p className="text-CetaceanBlue text-lg	">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur justo quis euismod
-              vehicula. Quisque diam dui, imperdiet et hendrerit in, accumsan tempus erat.
+            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue ">Values</h3>
+            <p className="text-lg text-CetaceanBlue ">
+              <ul className="pl-5 list-disc">
+                <li>Relentless Commitment</li>
+                <li>Focus & Quality</li>
+                <li>Integrity & Trust</li>
+                <li>Sincere Gratitude</li>
+                <li>Innovation</li>
+                <li>Transparency</li>
+              </ul>
+
             </p>
           </div>
         </div>
