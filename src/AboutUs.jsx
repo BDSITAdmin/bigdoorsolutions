@@ -26,12 +26,12 @@ const AboutUs = () => {
       <section className="px-4 py-12 bg-blue-50 md:px-16 lg:px-24">
         <div className="flex flex-col items-center justify-between md:flex-row">
           {aboutData.map((item) => (
-            <div key={item.id} className="mb-8 md:w-1/2 lg:w-1/3 md:mb-0">
-              <h2 className="mb-2 text-sm font-semibold text-blue-600">{item.title}</h2>
-              <h1 className="mb-4 text-3xl font-bold text-DavyGrey md:text-4xl">
+            <div key={item.id} className="mb-8 md:w-1/2 lg:mr-8 md:mb-0">
+              <h2 className="mb-2 text-[16px] font-inter xl:text-xl font-semibold text-blue-700 uppercase ">{item.title}</h2>
+              <h1 className="mb-4 text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora ">
                 {item.heading}
               </h1>
-              <p className="text-base text-gray-600">{item.description}</p>
+              <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-left font-inter  text-gray-600">{item.description}</p>
             </div>
           ))}
           <div className="flex justify-center md:w-1/3 lg:w-2/4">
@@ -54,8 +54,8 @@ const AboutUs = () => {
             <span className=' font-sora font-extrabold sm:text-[128px] text-[60px] sm:leading-[161.28px]'>18+</span>
             <span className="ml-3 font-inter sm:text-4xl text-3xl font-normal leading-[48px] tracking-[0.01em] text-left text-cackclour sm:w-[300px]">Years of experience in IT</span>
           </div>
-          <div className="max-w-md text-sm text-center md:text-base md:text-left">
-            <p>
+          <div className="max-w-md  text-center  md:text-left">
+            <p className='text-[14px] md:text-xs lg:text-sm xl:text-base  font-inter '>
               The IT services that we are running can be segmented by the type of skills employed to deliver the service
               (design, build, run). Technically, these fall into three main categories: business process services,
               application services, and infrastructure services.
@@ -66,11 +66,11 @@ const AboutUs = () => {
       <section className="px-4 py-12 bg-decoration-white md:px-16 lg:px-24">
         <div className="flex flex-col items-center justify-between md:flex-row">
           <div className="mb-8 md:w-2/3 lg:w-1/2 md:mb-0">
-            <h2 className="mb-2 text-sm font-semibold text-AliceBlue">MEET OUR FOUNDER</h2>
-            <h1 className="mb-4 text-3xl font-bold text-DavyGrey md:text-4xl">
+            <h2 className="mb-2 text-[16px] font-inter xl:text-xl font-semibold text-blue-700 uppercase">MEET OUR FOUNDER</h2>
+            <h1 className="mb-4 text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora ">
               Smita Srivastava – CEO, Founder
             </h1>
-            <p className="text-base font-normal leading-6 text-soldcolour">
+            <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter  leading-6 text-soldcolour">
               Smt. Smita Srivastava, the founder and CEO of BigDoor IT Solutions, is a dedicated social worker and a
               certified public speaker, known for her leadership and commitment goals to achieve societal betterment, has
               conducted various social initiatives, including Covid-19 relief efforts. With over a decade of experience,
@@ -90,7 +90,7 @@ const AboutUs = () => {
       </section>
       <div className="px-4 py-36 bg-blue-50 ">
         <div className="max-w-4xl mx-auto mb-12 text-center">
-          <h2 className=" text-Azure font-sora text-4xl font-semibold leading-[50.4px]">
+          <h2 className="mb-4 text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora leading-[50.4px]">
             Our values make us <span className="text-doggerblue">rise above all</span>
           </h2>
           <p className="mt-4 text-lg font-normal leading-8 text-soldcolour font-inter">
@@ -104,8 +104,8 @@ const AboutUs = () => {
             <div className="mb-4">
               <img src={Mission} alt="Mission Icon" className="w-12 h-12" />
             </div>
-            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue ">Mission</h3>
-            <p className="text-lg text-CetaceanBlue ">
+            <h3 className="mb-4 text-2xl font-bold text-CetaceanBlue ">Mission</h3>
+            <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter  leading-6 text-soldcolour ">
               To help individuals achieve their career bjectives with an affluent future by adding value to their training initiatives. We believe in building and delivering training experiences that help attain skills to transform participants to performers and make an honest impact where it matters.
             </p>
           </div>
@@ -113,8 +113,8 @@ const AboutUs = () => {
             <div className="mb-4">
               <img src={Vision} alt="Vision Icon" className="w-12 h-12 " />
             </div>
-            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue">Vision</h3>
-            <p className="text-lg text-CetaceanBlue ">
+            <h3 className="mb-4 text-2xl font-bold text-CetaceanBlue">Vision</h3>
+            <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter  leading-6 text-soldcolour">
               Our vision is to make Bigdoor Technologies a dynamic, vibrant and a value-driven organization to embrace exceptional skills with high quality, accessible training and professional development facilitated by motivated experts to help evolve qualified individuals into Professionals.
             </p>
           </div>
@@ -122,8 +122,8 @@ const AboutUs = () => {
             <div className="mb-4">
               <img src={Vision} alt="Values Icon" className="w-12 h-12 " />
             </div>
-            <h3 className="mb-4 text-xl font-bold text-CetaceanBlue ">Values</h3>
-            <p className="text-lg text-CetaceanBlue ">
+            <h3 className="mb-4 text-2xl font-bold text-CetaceanBlue ">Values</h3>
+            <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter  leading-6 text-soldcolour ">
               <ul className="pl-5 list-disc">
                 <li>Relentless Commitment</li>
                 <li>Focus & Quality</li>
