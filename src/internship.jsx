@@ -87,11 +87,11 @@ const ProgramDetails = () => {
     <>
       <section className="flex flex-col items-center justify-between px-8 py-16 bg-blue-500 sm:px-16 md:px-24 lg:px-32 md:flex-row">
         <div className="max-w-lg text-white">
-          <p className="mb-4 font-inter text-base font-semibold leading-[19.36px] tracking-[0.06em] uppercase">Internship Program</p>
-          <h1 className="mb-6 font-sora text-4xl font-semibold leading-[50.4px] ">
+          <p className="mb-4 text-[16px] font-inter xl:text-xl font-semibold uppercase">Internship Program</p>
+          <h1 className="mb-6 text-[27px]  lg:text-[40px] xl:mt-5 xl:text-5xl text-white font-semibold font-sora">
             Learn what your college can’t teach
           </h1>
-          <p className="mb-6 font-inter text-sm font-light leading-[21px] ">
+          <p className="mb-6 text-[14px] md:text-xs lg:text-sm xl:text-base text-left font-inter  ">
             We know the biggest challenge isn’t finding a job—it’s having the right skills. At BigDoor, we break the roadblocks between academic learning and real-world demands. Get yourself industry-ready with our courses, combining technical knowledge, critical thinking, and communication skills in the right way to open doors to big opportunities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
@@ -116,16 +116,16 @@ const ProgramDetails = () => {
         </div>
       </section>
       <section className="flex flex-col items-center justify-center w-full py-12 md:px-12 lg:px-16">
-        <p className="mb-2 font-poppins text-base font-semibold leading-6 tracking-[0.06em] text-[#1F5E9E]">
+        <p className="mb-2 text-[16px] font-inter xl:text-xl font-semibold text-blue-700">
           GETTING YOU READY FOR EVERCHANGING IT INDUSTRY
         </p>
-        <h1 className="font-sora text-3xl font-semibold leading-[40.4px] ">
+        <h1 className="text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora ">
           We don't teach for exam results
         </h1>
-        <h2 className="text-[#3E93E7] font-sora text-3xl font-semibold leading-[50.4px] ">
+        <h2 className="text-[#3E93E7] text-[27px] mb-3  lg:text-[40px] xl:mt-3 xl:text-5xl font-semibold font-sora ">
           We build you for a lifelong career
         </h2>
-        <p className="font-inter text-base  leading-[19.36px] text-center">
+        <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-center font-inter ">
           We are your <span className="font-semibold">'all-in-one solution'</span> — Skills, Experience, and Placement; all under one roof.
         </p>
         <div className="mt-2">
@@ -153,8 +153,8 @@ const ProgramDetails = () => {
       <section className="flex flex-col items-center justify-between px-8 py-16 bg-blue-50 sm:px-16 md:px-24 lg:px-32 md:flex-row">
         <div className="">
           <div className="px-4 mx-auto text-center max-w-7xl">
-            <h2 className="text-sm font-semibold tracking-wide uppercase text-AliceBlue">Program Details</h2>
-            <h1 className="mt-2 text-3xl font-bold text-BlackTie sm:text-4xl">Why You Should <span className="text-[#3E93E7]">Take This Opportunity</span></h1>
+            <h2 className="text-[16px] font-inter xl:text-xl font-semibold text-blue-700 uppercase">Program Details</h2>
+            <h1 className="text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl  font-semibold font-sora text-BlackTie">Why You Should <span className="text-[#3E93E7]">Take This Opportunity</span></h1>
             <p className="mt-4 max-w-6xl font-inter  font-medium leading-[21px] text-[#000000] mx-auto">Our Bootcamp offers a structured, industry-validated curriculum with over 800 hours of hands-on learning, real-world projects, and expert-led sessions to elevate your IT career.</p>
             <div className="mt-2">
               <hr className="h-1 mx-auto bg-[#2E89E5] border-none w-[70px]" />

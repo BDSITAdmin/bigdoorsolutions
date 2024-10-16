@@ -9,7 +9,7 @@ const PathwayToSuccess = () => {
         <section className="flex items-center justify-center py-8 bg-white sm:py-12 md:py-16">
             <div className="grid max-w-6xl grid-cols-1 gap-8 px-4 mx-auto sm:px-6 lg:px-8 md:grid-cols-2">
                 <div className="bg-white">
-                    <h3 className="font-poppins text-sm sm:text-base font-semibold leading-6 tracking-wide text-[#1F5E9E]">TIME IS MONEY</h3>
+                    <h3 className="text-[16px] font-inter xl:text-xl font-semibold  uppercase text-[#1F5E9E]">TIME IS MONEY</h3>
                     <h2 className="font-sora text-2xl sm:text-3xl md:text-4xl font-semibold leading-[40px] sm:leading-[45px] md:leading-[50px] tracking-tight mt-2 ">3 step pathway to success</h2>
                         <hr className=" mb-4 sm:mb-6 h-1  bg-[#2E89E5] border-none w-[70px]" />
                     <div className="p-4 mb-4 border rounded-md shadow-box-shadow hover:border-[#564FFD]">

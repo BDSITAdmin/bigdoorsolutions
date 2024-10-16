@@ -12,10 +12,10 @@ const EligibilitySection = () => {
     <>
       <section className="flex flex-col items-center justify-between px-8 py-16 sm:px-16 md:px-24 lg:px-32">
         <div className="w-full py-12 text-center bg-white">
-          <div className="mb-4 text-sm font-semibold tracking-widest text-[#1F5E9E] uppercase ">
+          <div className="mb-4 text-[16px] font-inter xl:text-xl font-semibold text-blue-700 uppercase ">
             Eligibility
           </div>
-          <h2 className="mb-4 font-sora text-4xl font-semibold leading-[50.4px]">
+          <h2 className="mb-4 text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora  leading-[50.4px]">
             Who Should Take <span className="text-[#3E93E7]">This Opportunity</span>
           </h2>
           <p className="mx-auto mb-10 text-[#000000] ">
