@@ -81,7 +81,7 @@ function Home() {
         </div>
 
         <a
-          href="https://api.whatsapp.com/send?phone=9632880906&text=Hello!"
+          href="https://api.whatsapp.com/send?phone=9632880906&text=Welcome%20to%20Bigdoor%20IT%20Solutions!%20Redefine%20your%20career%20with%20us.%20We%20are%20excited%20to%20connect%20with%20you!"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed flex items-center px-4 py-2 space-x-2 font-bold text-white transition-all duration-300 bg-green-500 rounded-full shadow-lg bottom-5 right-3 hover:bg-green-600"
@@ -96,6 +96,7 @@ function Home() {
           </svg>
           <span>WhatsApp</span>
         </a>
+
         <ScrollToTop />
 
         <div className="py-5 lg:py-[40px] px-5 lg:px-[40px] xl:px-[120px]">

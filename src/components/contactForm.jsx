@@ -2,111 +2,144 @@ import React, { useState } from 'react';
 import { FaUser, FaEnvelope, FaCommentDots } from 'react-icons/fa';
 
 const ContactForm = () => {
-    // State to store form input values
-    const [formData, setFormData] = useState({
-        fullName: '',
-        email: '',
-        message: '',
-    });
-
-    // State to manage form submission and validation errors
+    const [result, setResult] = useState("");
     const [errors, setErrors] = useState({});
-    const [isSubmitted, setIsSubmitted] = useState(false);
 
-    // Handle input change
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
+    // Validation function
+    const validateForm = (formData) => {
+        const errors = {};
+        if (!formData.get("fullName")) errors.fullName = "Full name is required";
+        if (!formData.get("email")) {
+            errors.email = "Email is required";
+        } else if (!/\S+@\S+\.\S+/.test(formData.get("email"))) {
+            errors.email = "Email is invalid";
+        }
+        if (!formData.get("message")) errors.message = "Message is required";
+        return errors;
     };
 
-    // Validate form fields
-    const validate = () => {
-        let tempErrors = {};
-        if (!formData.fullName) tempErrors.fullName = "Full Name is required";
-        if (!formData.email) tempErrors.email = "Email is required";
-        else if (!/\S+@\S+\.\S+/.test(formData.email)) tempErrors.email = "Email is invalid";
-        if (!formData.message) tempErrors.message = "Message is required";
-        return tempErrors;
-    };
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        setResult("Sending...");
 
-    // Handle form submission
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const validationErrors = validate();
-        setErrors(validationErrors);
+        formData.append("access_key", "c94adcca-b3d2-4abc-b145-240ddcf1b7bd");
 
-        // If there are no validation errors, process the form data
-        if (Object.keys(validationErrors).length === 0) {
-            console.log("Form Submitted Successfully", formData);
-            setIsSubmitted(true);
+        const validationErrors = validateForm(formData);
+        if (Object.keys(validationErrors).length > 0) {
+            setErrors(validationErrors);
+            setResult("Please fix the errors.");
+            return;
+        }
 
-            // Reset form
-            setFormData({ fullName: '', email: '', message: '' });
+        setErrors({}); // Clear any previous errors
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData,
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            openSuccessMessage(); // Open success message in new tab
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
         }
     };
 
+    // Function to open the success message in a new tab
+    const openSuccessMessage = () => {
+        const successWindow = window.open("", "_blank");
+        successWindow.document.write(`
+            <html>
+                <head>
+                    <title>Success</title>
+                    <script src="https://cdn.tailwindcss.com"></script>
+                </head>
+                <body class="flex items-center justify-center h-screen bg-green-50">
+                    <div class="p-8 bg-white rounded-lg shadow-md text-center border-2 border-green-500">
+                        <h2 class="text-2xl font-semibold text-green-600">🎉 Success!</h2>
+                        <p class="text-lg text-gray-700 mt-2">
+                            Your form has been submitted successfully.
+                        </p>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Thank you for reaching out to us! We will get back to you soon.
+                        </p>
+                        <button
+                            class="mt-6 px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition"
+                            onclick="window.close();"
+                        >
+                            Close Tab
+                        </button>
+                    </div>
+                </body>
+            </html>
+        `);
+    };
+
     return (
-        <>
-            <form onSubmit={handleSubmit} className=''>
-                <div className="mb-4">
-                    <div className="flex items-center p-2 border rounded-md bg-SeaGreen">
-                        <FaUser className="mr-2 text-Azure" />
-                        <input
-                            type="text"
-                            name="fullName"
-                            value={formData.fullName}
-                            onChange={handleChange}
-                            className="w-full bg-transparent outline-none border-SeaGreen"
-                            placeholder="Full Name"
-                        />
-                    </div>
-                    {errors.fullName && <p className="text-sm text-red-500">{errors.fullName}</p>}
+        <form onSubmit={onSubmit} className="max-w-md p-4 mx-auto">
+            <div className="mb-4">
+                <div className="flex items-center p-2 border rounded-md ">
+                    <FaUser className="mr-2 " />
+                    <input
+                        type="text"
+                        name="fullName"
+                        className="w-full bg-transparent outline-none"
+                        placeholder="Full Name"
+                    />
                 </div>
+                {errors.fullName && (
+                    <p className="text-sm text-red-500">{errors.fullName}</p>
+                )}
+            </div>
 
-                <div className="mb-4">
-                    <div className="flex items-center p-2 border rounded-md bg-SeaGreen">
-                        <FaEnvelope className="mr-2 text-Azure" />
-                        <input
-                            type="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            className="w-full bg-transparent outline-none border-SeaGreen"
-                            placeholder="Email Address"
-                        />
-                    </div>
-                    {errors.email && <p className="text-sm text-red-500">{errors.email}</p>}
+            <div className="mb-4">
+                <div className="flex items-center p-2 border rounded-md">
+                    <FaEnvelope className="mr-2 " />
+                    <input
+                        type="email"
+                        name="email"
+                        className="w-full bg-transparent outline-none"
+                        placeholder="Email Address"
+                    />
                 </div>
+                {errors.email && (
+                    <p className="text-sm text-red-500">{errors.email}</p>
+                )}
+            </div>
 
-                <div className="mb-4">
-                    <div className="flex items-start p-2 border rounded-md bg-SeaGreen">
-                        <FaCommentDots className="mt-2 mr-2 text-Azure" />
-                        <textarea
-                            name="message"
-                            value={formData.message}
-                            onChange={handleChange}
-                            className="w-full bg-transparent outline-none"
-                            placeholder="Message"
-                            rows="4"
-                        ></textarea>
-                    </div>
-                    {errors.message && <p className="text-sm text-red-500">{errors.message}</p>}
+            <div className="mb-4">
+                <div className="flex items-start p-2 border rounded-md ">
+                    <FaCommentDots className="mt-2 mr-2" />
+                    <textarea
+                        name="message"
+                        className="w-full bg-transparent outline-none"
+                        placeholder="Message"
+                        rows="4"
+                    ></textarea>
                 </div>
+                {errors.message && (
+                    <p className="text-sm text-red-500">{errors.message}</p>
+                )}
+            </div>
 
-                <button
-                    type="submit"
-                    className="w-full py-3 font-medium text-white transition duration-300 rounded-md bg-BleuDe hover:bg-blue-700"
-                >
-                    Send Message <span className="ml-2">→</span>
-                </button>
+            <button
+                type="submit"
+                className="w-full py-3 font-medium text-white transition bg-blue-500 rounded-md hover:bg-blue-700"
+            >
+                Send Message <span className="ml-2">→</span>
+            </button>
 
-                {isSubmitted && <p className="mt-4 text-sm text-green-500">Message sent successfully!</p>}
+            <p className="mt-4 text-xs text-gray-500">
+                *Any details shared through this form shall remain private to Bigdoor Solutions and will not be disclosed to any third party or external company.
+            </p>
 
-                <p className="text-gray-500 text-[12px] font-normal mt-4">
-                    *Any details shared through this form shall remain private to Bigdoor Solutions and will not be disclosed to any third party or external company.
-                </p>
-            </form>
-        </>
+            <span className="block mt-4 text-gray-600">{result}</span>
+        </form>
     );
 };
 
