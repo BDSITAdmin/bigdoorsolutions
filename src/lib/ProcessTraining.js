@@ -7,7 +7,7 @@ export const ProcessTraining  = [
   {
     id: 1,
     title: "Project Management Professional",
-    description: "Full stack development covers both frontend and backend aspects of applications.",
+    description: "A project manager is a professional who organizes, plans, and executes projects while working within restraints like budgets and schedules. Project managers lead entire teams, define project goals, communicate with stakeholders, and see a project through to its closure.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: CourseImg,
@@ -16,7 +16,7 @@ export const ProcessTraining  = [
   {
     id: 2,
     title: "Scaled Agile Framework",
-    description: "MEAN Stack is a full-stack JavaScript solution consisting of MongoDB, Express.js, Angular, and Node.js",
+    description: "Scaled Agile Framework (SAF) is a comprehensive framework designed to help organizations implement Agile principles and practices at scale. It provides a structured approach for aligning teams and projects across large enterprises, promoting collaboration, and improving the flow of work.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: CourseImg,
@@ -25,7 +25,7 @@ export const ProcessTraining  = [
   {
     id: 3,
     title: "Certified Scrum Master",
-    description: "Full stack development covers both frontend and backend aspects of applications.",
+    description: "Certified Scrum Master (CSM) certification is a globally recognized credential offered by the Scrum Alliance for individuals who want to become proficient in the Scrum framework, which is a popular Agile methodology used for managing and completing complex projects.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: CourseImg,

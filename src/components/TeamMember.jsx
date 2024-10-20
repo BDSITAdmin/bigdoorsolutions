@@ -18,16 +18,16 @@ import linkedin from '../assets/licon.png';
 const TeamMembers = () => {
   const members = [
     { id: 1, name: 'Priyanka Srivastava', title: 'Director & B D Manager', imgSrc: CardImage },
-    { id: 2, name: 'Alisha Abhishek', title: 'Director & Human Rresource', imgSrc:CardImage1 },
+    { id: 2, name: 'Amisha Abhishek', title: 'Director & Human Rresource', imgSrc:CardImage1 },
     { id: 3, name: 'Rajdeep Sinha', title: 'Director & Human Rresource', imgSrc: CardImage2 },
-    { id: 4, name: 'Swaroop Kuppa', title: 'Director & Human Rresource', imgSrc: CardImage3},
+    { id: 4, name: 'Swaroop Kuppa', title: 'Business Devlopment Manager', imgSrc: CardImage3},
     { id: 5, name: 'Sandhya Wadla', title: 'Business Devlopment Manager', imgSrc: CardImage4 },
-    { id: 5, name: 'Mahadeo Kr', title: 'Senior Frontend Devloper', imgSrc: CardImage5 },
-    { id: 6, name: 'Monu Yadav', title: 'Senior Frontend Devloper', imgSrc:CardImage6 },
-    { id: 7, name: 'Renuka', title: 'Senior Graphic Designer', imgSrc: CardImage7 },
+    { id: 5, name: 'Mahadeo Kr', title: 'Sr. Frontend Devloper', imgSrc: CardImage5 },
+    { id: 6, name: 'Monu Yadav', title: 'Sr. Frontend Devloper', imgSrc:CardImage6 },
+    { id: 7, name: 'Renuka', title: 'Sr. UI/UX Designer', imgSrc: CardImage7 },
     { id: 8, name: 'Yogesh Mayekar', title: 'Technical Project Manager', imgSrc: CardImage8},
     { id: 9, name: 'Siddarth Tamse', title: 'Java & Python Devloper', imgSrc:CardImage9 },
-    { id: 9, name: 'Shrusti Patil', title: 'DevOps Engineer', imgSrc:CardImage10 },
+    { id: 9, name: 'Srushti Patil', title: 'DevOps Engineer', imgSrc:CardImage10 },
     // { id: 10, name: 'Renuka', title: 'Senior Graphic Designer', imgSrc: CardImage7 },
     // { id: 11, name: 'Swaroop Kuppa', title: 'Director & Human Rresource', imgSrc: CardImage3},
   ];
