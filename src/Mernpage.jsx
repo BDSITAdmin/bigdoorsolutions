@@ -2,14 +2,14 @@ import React from "react";
 import EnrollForm from "./components/enrollForm";
 import Trailerimg from "./assets/Trailer.png"
 import ProgramDetails from "./components/programDetails";
-import FullstackWelearn from "./components/FullstackWelearn";
-import FullstackFaq from "./components/FullstackFAQ";
 import Feedback from './components/Feedback';
 import ScrollToTop from "./components/TopArrow";
 import WhatsAppButton from './components/whatsapp';
+import MernFaq from "./components/MernFaq";
+import MernWelearn from "./components/Mernwelearn";
 
 
-const CourseDetails = () => {
+const MernDetails = () => {
 
     return (
         <>
@@ -17,13 +17,13 @@ const CourseDetails = () => {
                 <div className="w-full lg:w-8/12 space-y-5 pt-5 ">
                     <h1 className='text-[28px] lg:text-[40px] xl:text-[44px] font-sora
                      font-semibold  leading-tight lg:leading-[54px]'>
-                        Full Stack Web Devlopments
+                        MERN Stack
                     </h1>
                     <p>
-                        This beginner-friendly Full-Stack Web Development Bootcamp  is your chance to prepare
-                        for the world of work as a Full-Stack Developer in a product-based company, compile a
-                        job-ready project portfolio, and become a self-sufficient, versatile
-                        software developer with all the critical skills for a long and healthy career in tech.
+                        The MERN Stack is a comprehensive, JavaScript-based technology stack designed to streamline the
+                        development of modern web applications, particularly single-page and dynamic applications.
+                        It consists of four powerful technologies that work together seamlessly to handle front-end,
+                        back-end, and database operations, providing an end-to-end development solution.
                     </p>
                     <img src={Trailerimg} alt=" pic" className="w-full h-auto" />
                     <div className="block lg:hidden">
@@ -34,9 +34,9 @@ const CourseDetails = () => {
                         <ProgramDetails />
                     </div>
 
-                    <FullstackWelearn />
-                    <FullstackFaq />
-                    <Feedback/>
+                    <MernWelearn />
+                    <MernFaq />
+                    <Feedback />
 
                 </div>
                 <div className="hidden lg:block">
@@ -49,4 +49,4 @@ const CourseDetails = () => {
     )
 }
 
-export default CourseDetails;
+export default MernDetails;

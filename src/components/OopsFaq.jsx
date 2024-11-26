@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Faq = () => {
+const OopsFaq = () => {
     // FAQ Data
     const faqs = [
         {
@@ -53,4 +53,4 @@ const Faq = () => {
     );
 };
 
-export default Faq;
+export default OopsFaq;

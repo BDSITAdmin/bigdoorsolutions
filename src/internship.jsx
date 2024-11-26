@@ -21,6 +21,8 @@ import EligibilitySection from './components/EligibilitySection';
 import { Link } from 'react-router-dom';
 import { FiArrowRight } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 
 
 
@@ -173,6 +175,8 @@ const ProgramDetails = () => {
       </section>
       <Pathway />
       <EligibilitySection />
+      <WhatsAppButton />
+      <ScrollToTop />
 
     </>
   );

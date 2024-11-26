@@ -4,6 +4,8 @@ import Group from './assets/Group 503.png'
 import BuildImage1 from './assets/image a29.jpg';
 import BuildImage2 from './assets/image a30.jpg';
 import BuildImage3 from './assets/image a28.jpg';
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 
 
 const WebDevelopmentSection = () => {
@@ -105,6 +107,8 @@ const WebDevelopmentSection = () => {
                         </div>
                     ))}
                 </div>
+                <WhatsAppButton />
+                <ScrollToTop />
             </section>
         </>
     );

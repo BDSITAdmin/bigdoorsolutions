@@ -2,14 +2,14 @@ import React from "react";
 import EnrollForm from "./components/enrollForm";
 import Trailerimg from "./assets/Trailer.png"
 import ProgramDetails from "./components/programDetails";
-import FullstackWelearn from "./components/FullstackWelearn";
-import FullstackFaq from "./components/FullstackFAQ";
 import Feedback from './components/Feedback';
 import ScrollToTop from "./components/TopArrow";
 import WhatsAppButton from './components/whatsapp';
+import CprogFaq from "./components/CprogFaq";
+import CprogWelearn from "./components/CprogWelearn";
 
 
-const CourseDetails = () => {
+const CprogDetails = () => {
 
     return (
         <>
@@ -17,13 +17,13 @@ const CourseDetails = () => {
                 <div className="w-full lg:w-8/12 space-y-5 pt-5 ">
                     <h1 className='text-[28px] lg:text-[40px] xl:text-[44px] font-sora
                      font-semibold  leading-tight lg:leading-[54px]'>
-                        Full Stack Web Devlopments
+                        C
                     </h1>
                     <p>
-                        This beginner-friendly Full-Stack Web Development Bootcamp  is your chance to prepare
-                        for the world of work as a Full-Stack Developer in a product-based company, compile a
-                        job-ready project portfolio, and become a self-sufficient, versatile
-                        software developer with all the critical skills for a long and healthy career in tech.
+                        C language is a high-level, general-purpose, and procedural programming language.
+                        It was specifically designed for system programming tasks, such as writing
+                        operating systems,and has since become one of the most widely used and influential
+                        programming languages.
                     </p>
                     <img src={Trailerimg} alt=" pic" className="w-full h-auto" />
                     <div className="block lg:hidden">
@@ -34,9 +34,9 @@ const CourseDetails = () => {
                         <ProgramDetails />
                     </div>
 
-                    <FullstackWelearn />
-                    <FullstackFaq />
-                    <Feedback/>
+                    <CprogWelearn />
+                    <CprogFaq />
+                    <Feedback />
 
                 </div>
                 <div className="hidden lg:block">
@@ -49,4 +49,4 @@ const CourseDetails = () => {
     )
 }
 
-export default CourseDetails;
+export default CprogDetails;

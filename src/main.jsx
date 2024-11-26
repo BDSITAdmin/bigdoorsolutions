@@ -11,7 +11,8 @@ import ProgramDetails from './internship.jsx';
 import  ItServices from './ItServices.jsx';
 import Course from './course.jsx';
 import CourseDetails from './CourseDetails.jsx';
-
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 
 
 createRoot(document.getElementById('root')).render(
@@ -27,6 +28,9 @@ createRoot(document.getElementById('root')).render(
       <Route path="/course" element={<Course />} />
       <Route path="/CourseDetails" element={<CourseDetails />} />
     </Routes>
+    <WhatsAppButton />
+     <ScrollToTop />
     <Footer/> 
   </Router>
+  
 );

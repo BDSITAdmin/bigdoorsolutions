@@ -2,7 +2,7 @@ import React from 'react';
 import BoxImage from '../assets/CheckCircle.png'
 
 
-const Welearn = () => {
+const AnalyticskillsWelearn = () => {
     return (
         <div className="flex items-center justify-center min-h-screen py-4">
             <div className="w-full max-w-6xl p-6 bg-[#E1F7E366] rounded-lg shadow-lg">
@@ -100,4 +100,4 @@ const Welearn = () => {
 
 
 
-export default Welearn;
+export default AnalyticskillsWelearn;

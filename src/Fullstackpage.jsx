@@ -2,14 +2,14 @@ import React from "react";
 import EnrollForm from "./components/enrollForm";
 import Trailerimg from "./assets/Trailer.png"
 import ProgramDetails from "./components/programDetails";
-import FullstackWelearn from "./components/FullstackWelearn";
-import FullstackFaq from "./components/FullstackFAQ";
 import Feedback from './components/Feedback';
 import ScrollToTop from "./components/TopArrow";
 import WhatsAppButton from './components/whatsapp';
+import FullstackFaq from "./FullstackFAQ";
+import FullstackWelearn from "./components/FullstackWelearn";
 
 
-const CourseDetails = () => {
+const FullstackDetails = () => {
 
     return (
         <>
@@ -36,7 +36,7 @@ const CourseDetails = () => {
 
                     <FullstackWelearn />
                     <FullstackFaq />
-                    <Feedback/>
+                    <Feedback />
 
                 </div>
                 <div className="hidden lg:block">
@@ -49,4 +49,4 @@ const CourseDetails = () => {
     )
 }
 
-export default CourseDetails;
+export default FullstackDetails;

@@ -9,7 +9,8 @@ import Services from './components/Services';
 import OurService from './components/ourServices';
 import ContactForm from './components/contactForm';
 import GetQuick from './components/GetQuick'
-
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 
 
 
@@ -21,16 +22,16 @@ const ItServices = () => {
         <div className="max-w-lg text-white">
           <p className="font-inter text-[16px] text-white mb-4 xl:text-xl xl:mb-6 font-semibold uppercase">Our Services</p>
           <h1 className="text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl  text-white font-semibold font-sora">
-          Our cost effective IT Solutions
+            Our cost effective IT Solutions
           </h1>
           <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter mt-8 pb-6 px-0 ">
             We know the biggest challenge isn’t finding a job—it’s having the right skills. At BigDoor, we break the roadblocks between academic learning and real-world demands. Get yourself industry-ready with our courses, combining technical knowledge, critical thinking, and communication skills in the right way to open doors to big opportunities.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <button className="px-6 py-3 font-semibold text-black transition border border-yellow-400 duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:text-yellow-400 ">
-            Request Service 
+              Request Service
             </button>
-           
+
           </div>
         </div>
         <div className="mt-8 md:mt-0 md:ml-12">
@@ -89,7 +90,10 @@ const ItServices = () => {
           </div>
         </div>
       </div>
-      <GetQuick/>
+      <GetQuick />
+      <WhatsAppButton />
+      <ScrollToTop />
+
     </>
   );
 };

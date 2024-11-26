@@ -4,8 +4,8 @@ import FounderImage from './assets/Group 81.png';
 import TeamMember from './components/TeamMember';
 import Vision from './assets/Vision.png'
 import Mission from './assets/Mission.png'
-
-
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 const AboutUs = () => {
 
   const aboutData = [
@@ -46,6 +46,8 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <WhatsAppButton />
+        <ScrollToTop />
 
 
       <section className="px-6 py-10 mx-4 my-10 text-white bg-blue-500 rounded-lg md:mx-12 lg:mx-24">

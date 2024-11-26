@@ -3,7 +3,8 @@ import calllogo from './assets/call.png';
 import location from './assets/location.png';
 import mailbox from './assets/mailbox.png';
 import ContactForm from './components/contactForm';
-
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from './components/whatsapp';
 const ContactSection = () => {
     return (
         <>
@@ -17,7 +18,7 @@ const ContactSection = () => {
                         <div className="md:w-6/12 lg:w-7/12"><p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-left font-inter  text-gray-600 sm:w-auto">
                             Do you have a question? Simply drop us a message, and we’ll get back to you within 24 hours.
                         </p></div>
-                        
+
                         <span className="block w-14 h-[2px] bg-hexadecimal mt-2 ml-0"></span>
                     </div>
                 </section>
@@ -91,6 +92,8 @@ const ContactSection = () => {
                         </div>
                     </div>
                 </section>
+                <WhatsAppButton />
+                <ScrollToTop />
             </div>
         </>
     );
