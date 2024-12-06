@@ -12,6 +12,7 @@ export const SoftSkill  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    
   },
   {
     id: 2,

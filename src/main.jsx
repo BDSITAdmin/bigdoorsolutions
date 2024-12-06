@@ -10,7 +10,8 @@ import Footer from './components/footer.jsx';
 import ProgramDetails from './internship.jsx';
 import  ItServices from './ItServices.jsx';
 import Course from './course.jsx';
-import CourseDetails from './CourseDetails.jsx';
+import CourseDetails from './CourseDetails.jsx'
+import MernDetails from './courses/Mernpage.jsx'
 
 
 
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/ItServices" element={<ItServices/>} />
       <Route path="/course" element={<Course />} />
       <Route path="/CourseDetails" element={<CourseDetails />} />
+      <Route path="/courses/Mernpage" element={<MernDetails />} />
     </Routes>
     <Footer/> 
   </Router>
