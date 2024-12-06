@@ -12,6 +12,7 @@ export const ProcessTraining  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/ProjectMPpage",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const ProcessTraining  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/ScaledAFpage",
   },
   {
     id: 3,
@@ -30,5 +32,6 @@ export const ProcessTraining  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/CertifiedSMpage",
   },
 ];

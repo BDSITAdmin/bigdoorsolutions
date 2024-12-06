@@ -12,6 +12,7 @@ export const Certifications = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Cprogpage",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const Certifications = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Cpluspage",
   },
   {
     id: 3,
@@ -30,5 +32,6 @@ export const Certifications = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Oopspage",
   },
 ];

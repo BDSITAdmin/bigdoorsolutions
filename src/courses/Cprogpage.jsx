@@ -1,12 +1,12 @@
 import React from "react";
-import EnrollForm from "./components/enrollForm";
-import Trailerimg from "./assets/Trailer.png"
-import ProgramDetails from "./components/programDetails";
-import Feedback from './components/Feedback';
-import ScrollToTop from "./components/TopArrow";
-import WhatsAppButton from './components/whatsapp';
-import CprogFaq from "./components/CprogFaq";
-import CprogWelearn from "./components/CprogWelearn";
+import EnrollForm from "../components/enrollForm";
+import Trailerimg from "../assets/Trailer.png"
+import ProgramDetails from "../components/programDetails";
+import Feedback from '../components/Feedback';
+import ScrollToTop from "../components/TopArrow";
+import WhatsAppButton from '../components/whatsapp';
+import CprogFaq from "../components/CprogFaq";
+import CprogWelearn from "../components/CprogWelearn";
 
 
 const CprogDetails = () => {

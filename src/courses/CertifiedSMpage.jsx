@@ -1,12 +1,12 @@
 import React from "react";
-import EnrollForm from "./components/enrollForm";
-import Trailerimg from "./assets/Trailer.png"
-import ProgramDetails from "./components/programDetails";
-import Feedback from './components/Feedback';
-import ScrollToTop from "./components/TopArrow";
-import WhatsAppButton from './components/whatsapp';
-import CertifiedSMFaq from "./components/CertifiedSMFaq";
-import CertifiedSMWelearn from "./components/CertifiedsMWelearn";
+import EnrollForm from "../components/enrollForm";
+import Trailerimg from "../assets/Trailer.png"
+import ProgramDetails from "../components/programDetails";
+import Feedback from '../components/Feedback';
+import ScrollToTop from "../components/TopArrow";
+import WhatsAppButton from '../components/whatsapp';
+import CertifiedSMFaq from "../components/CertifiedSMFaq";
+import CertifiedSMWelearn from "../components/CertifiedsMWelearn";
 
 
 const CertifiedSMDetails = () => {

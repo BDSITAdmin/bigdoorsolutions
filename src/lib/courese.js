@@ -1,7 +1,8 @@
 
 import CourseImg from '../assets/Course Images.png';
 import  CourseImg2 from '../assets/Clock.png';
-const courses = [
+ 
+export const courses = [
   {
     id: 1,
     title: "Full stack Web Development",

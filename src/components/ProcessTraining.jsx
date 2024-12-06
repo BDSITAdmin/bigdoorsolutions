@@ -1,12 +1,11 @@
 import React from "react";
 import { ProcessTraining } from '../lib/ProcessTraining';
 import { FaArrowRight } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
-const ProcessTrainings = () => {
-  
-    const navigate = useNavigate();
-  
-    const handleNavigation = (path) => {
+ const ProcessTraining = () => {
+  const navigate = useNavigate();
+  const handleNavigation = (path) => {
       navigate(path); // Navigate to the dynamic path
     };
   return (
@@ -59,4 +58,4 @@ const ProcessTrainings = () => {
   );
 };
 
-export default ProcessTrainings;
+export default ProcessTraining;

@@ -1,12 +1,12 @@
 import React from "react";
-import EnrollForm from "./components/enrollForm";
-import Trailerimg from "./assets/Trailer.png"
-import ProgramDetails from "./components/programDetails";
-import Feedback from './components/Feedback';
-import ScrollToTop from "./components/TopArrow";
-import WhatsAppButton from './components/whatsapp';
-import OopsFaq from "./components/OopsFaq";
-import OopsWelearn from "./components/OopsWelearn";
+import EnrollForm from "../components/enrollForm";
+import Trailerimg from "../assets/Trailer.png"
+import ProgramDetails from "../components/programDetails";
+import Feedback from '../components/Feedback';
+import ScrollToTop from "../components/TopArrow";
+import WhatsAppButton from '../components/whatsapp';
+import OopsFaq from "../components/OopsFaq";
+import OopsWelearn from "../components/OopsWelearn";
 
 
 const OopsDetails = () => {

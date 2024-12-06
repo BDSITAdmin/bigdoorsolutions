@@ -12,6 +12,7 @@ export const SoftSkill  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Businesswritingpage",
     
   },
   {
@@ -22,6 +23,7 @@ export const SoftSkill  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Analyticalskillspage",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const SoftSkill  = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
+    path: "/courses/Businessetiquettepage",
   },
 ];
 
