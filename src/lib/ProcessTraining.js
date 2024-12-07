@@ -3,7 +3,7 @@ import CourseImg from '../assets/Course Images.png';
 import  CourseImg2 from '../assets/Clock.png';
 
 
-export const ProcessTraining  = [
+export const ProcessTrainings  = [
   {
     id: 1,
     title: "Project Management Professional",

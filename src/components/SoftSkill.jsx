@@ -45,7 +45,7 @@ const SoftSkillTec = () => {
                 <button className="flex items-center justify-center mt-4 w-full bg-white border-[1px]
                  border-[#2E89E5] text-[#2E89E5] font-semibold py-2 px-4 rounded-lg hover:bg-blue-500
                   hover:text-white transition duration-200"
-                  onClick={() => handleNavigation(course.path)}>
+                  onClick={() => handleNavigation(SoftSkill.path)}>
                   View Details <FaArrowRight className="ml-4 h-4 w-4" />
                 </button>
               </div>

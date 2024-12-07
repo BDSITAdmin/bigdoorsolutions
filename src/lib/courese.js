@@ -11,7 +11,7 @@ export const courses = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
-    path: "/Fullstackpage", // Add the unique path
+    path: "/courses/Fullstackpage", // Add the unique path
   },
   {
     id: 2,
@@ -31,6 +31,6 @@ export const courses = [
     badge: "MOST POPULAR",
     image: CourseImg,
     image1: CourseImg2,
-    path: "/courses/cloud-computing",
+    path: "/courses/Cloudpage",
   },
 ];
