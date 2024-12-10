@@ -1,6 +1,6 @@
 import React from "react";
 import EnrollForm from "../components/enrollForm";
-import Trailerimg from "../assets/Trailer.png"
+import Trailerimg from "../assets/Betiquette-image.jpg"
 import ProgramDetails from "../components/programDetails";
 import Feedback from '../components/Feedback';
 import ScrollToTop from "../components/TopArrow";
@@ -17,7 +17,7 @@ const BusinessetiquetteDetails = () => {
                 <div className="w-full lg:w-8/12 space-y-5 pt-5 ">
                     <h1 className='text-[28px] lg:text-[40px] xl:text-[44px] font-sora
                      font-semibold  leading-tight lg:leading-[54px]'>
-                        Business Writing
+                        Business Etiquette
                     </h1>
                     <p>
                         Business etiquette is the set of established norms, customs, and professional behaviors

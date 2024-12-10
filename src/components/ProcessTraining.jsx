@@ -38,7 +38,7 @@ import { useNavigate } from 'react-router-dom';
                   </div>
                 </div>
 
-                <h3 className="mt-4 font-sora text-[20px] font-semibold leading-[22px] text-[##1D2026]">{ProcessTraining.title}</h3>
+                <h3 className="mt-4 font-sora text-[20px] font-semibold leading-[22px] text-[##1D2026]">{ProcessTrainings.title}</h3>
                 <p className="mt-2 text-[#333333] font-inter text-[14px] font-normal leading-[24px]">
                   {ProcessTrainings.description}
                 </p>

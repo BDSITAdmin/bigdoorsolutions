@@ -14,36 +14,36 @@ const CprogWelearn = () => {
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                     <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
-                                    </span> Introduction</h3>
-                                <p className="ml-8 text-gray-700">Learn fundamentals of programming the world-wide web and its key stakeholders.</p>
+                                    </span> Introduction to C</h3>
+                                <p className="ml-8 text-gray-700">C is a powerful, procedural programming language used for system-level and application development.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                     Version Control</h3>
-                                <p className="ml-8 text-gray-700">Master version controlling and managing code and assets using Git and GitHub.</p>
+                                    Syntax and Structure</h3>
+                                <p className="ml-8 text-gray-700">C programs have a structured format with a main() function as the entry point.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                    JavaScript</h3>
-                                <p className="ml-8 text-gray-700">Start with the basics; loops, arrays, and objects, then level up with functions.</p>
+                                    Compiling and Running</h3>
+                                <p className="ml-8 text-gray-700">C programs are compiled into machine code using compilers like GCC for execution..</p>
                             </li>
                             <li>
-                                <h3 className="font-inter text-[16px] font-semibold leading-[22px] "><span><img src={BoxImage} className="inline-block mr-2" /></span> Node.js and Express</h3>
-                                <p className="ml-8 text-gray-700">Build scalable, performant, dynamic server-side apps with Node.js and Express.</p>
+                                <h3 className="font-inter text-[16px] font-semibold leading-[22px] "><span><img src={BoxImage} className="inline-block mr-2" /></span> Variables</h3>
+                                <p className="ml-8 text-gray-700"> Variables store data of specific types like int, float, and char.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                    Software Testing</h3>
-                                <p className="ml-8 text-gray-700">In-depth knowledge of testing, principles, phases, automation, and more.</p>
+                                    Input and Output</h3>
+                                <p className="ml-8 text-gray-700">Use printf() for output and scanf() for input in a C program.</p>
                             </li>
                         </ul>
                     </div>
@@ -54,40 +54,40 @@ const CprogWelearn = () => {
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     Linux Essentials</h3>
-                                <p className="ml-8 text-gray-700">Working in a Linux (bash) environment, key commands, workflows, and techniques.</p>
+                                    Operators</h3>
+                                <p className="ml-8 text-gray-700">Operators like +, -, *, and / perform arithmetic or logical operations.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     HTML5 and CSS3</h3>
-                                <p className="ml-8 text-gray-700">Learn responsive websites with HTML5 and CSS3, key APIs and use cases.</p>
+                                    Control Structures</h3>
+                                <p className="ml-8 text-gray-700">Conditional statements (if, switch) and loops (for, while) control the flow of execution.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     React</h3>
-                                <p className="ml-8 text-gray-700">Learn Hooks API, SSR, testable components, global state management, and more.</p>
+                                    Functions</h3>
+                                <p className="ml-8 text-gray-700">Functions allow modular and reusable code by encapsulating specific tasks.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                    Mongo DB</h3>
-                                <p className="ml-8 text-gray-700">NoSQL database design and implementation with MongoDB, CRUD operations.</p>
+                                    Pointers</h3>
+                                <p className="ml-8 text-gray-700">Pointers store memory addresses, enabling dynamic memory and efficient data manipulation.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     Agile and Scrum</h3>
-                                <p className="ml-8 text-gray-700">Deep dive into Agile, project management framework, and Scrum's building blocks.</p>
+                                    File Handlings</h3>
+                                <p className="ml-8 text-gray-700">C supports reading and writing files for persistent data storage.</p>
                             </li>
                         </ul>
                     </div>
