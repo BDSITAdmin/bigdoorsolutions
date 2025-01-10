@@ -101,7 +101,7 @@ function Home() {
 
         <div className="py-5 lg:py-[40px] px-5 lg:px-[40px] xl:px-[120px]">
           <div className="flex flex-col items-center">
-            <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700'>IT SOLUTIONS</h3>
+            <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700 underline'>IT SOLUTIONS</h3>
             <h1 className='text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora'>What we offer</h1>
             <p className='text-[14px] md:text-xs lg:text-sm xl:text-base text-center font-inter pb-6 px-0'>
               Our comprehensive range of services includes web design, mobile app development, SEO,
