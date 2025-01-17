@@ -40,9 +40,6 @@ function Home() {
 
     return () => clearTimeout(timeout);
   }, [text, subIndex, isDeleting, index, words]);
-
-
-
   const navigate = useNavigate();
   const handleNavigation = () => {
     navigate('/course'); // Replace '/new-page' with the actual path you want
@@ -52,30 +49,28 @@ function Home() {
     <>
 
       <div>
-        <div className="md:relative">
+        <div className="md:relative relative">
           <img src={Homepic} alt="Home pic" className="w-full h-auto" />
-          <div className="md:absolute w-full md:w-6/12  h-auto sm:top-[20px]  xl:top-[70px] left-[10px] sm:left-[30px] xl:left-[100px]   xl:p-0">
-            <h1 className='text-[28px] lg:text-[40px] pr-36 xl:text-[54px] font-sora font-semibold md:text-white tracking-[1.5px] leading-tight lg:leading-[54px]'>
+          <div className="md:absolute lg:absolute absolute w-[52%] lg:w-[45%] md:w-[47%] md:top-[30px] lg:top-16  lg:left-24 md:left-6 top-[10px] pl-3 ">
+            <h1 className='md:text-[30px] lg:text-[50px]   font-sora font-semibold text-white tracking-[1.5px] leading-tight lg:leading-[64px]'>
               {text}
             </h1>
           </div>
-          <div className="md:absolute w-full md:w-6/12  h-auto  xl:top-[70px] left-[10px] sm:left-[30px] xl:left-[100px] p-4 xl:p-0">
-            <p className='mt-[20px] lg:mt-[28px]  md:text-white text-sm md:text-xs lg:text-sm xl:text-lg relative sm:top-28'>
-
-
+          <div className="md:absolute absolute lg:absolute w-[50%] md:w-6/12 h-auto  xl:top-[70px] left-[10px]  xl:left-[100px] md:p-4 xl:p-0">
+            <p className=' lg:mt-[28px] text-[9px] md:text-[14px] md:bottom-44 bottom-20 text-white leading-3 md:leading-5 lg:top-28 lg:text-sm xl:text-lg relative '>
               We aim to create a space where curiosity about technology grows without
               the fear of staying behind in race. With our expertise, we are dedicated to analyzing
               upcoming trends and embracing new technologies with agility.
             </p>
             <button
               type="button"
-              className="inline-flex items-center mt-5 lg:mt-7 rounded bg-Vividyellow px-4 
-              lg:px-5 py-2 lg:py-2.5 text-sm font-semibold relative top-32 hover:bg-white hover:text-black "
+              className="inline-flex items-center md:mt-5 lg:mt-7 rounded bg-Vividyellow md:px-4  text-[8px]
+              lg:px-5 md:py-2 p-0.5 lg:py-2.5 md:text-sm md:font-semibold  relative md:bottom-[180px] bottom-[85px] lg:top-32 hover:bg-white hover:text-black  "
               onClick={handleNavigation}
 
             >
               Get Started
-              <FaArrowRight className="w-4 h-4 ml-2" />
+              <FaArrowRight className="w-2 h-2 ml-1" />
             </button>
           </div>
         </div>
@@ -84,7 +79,7 @@ function Home() {
           href="https://api.whatsapp.com/send?phone=9632880906&text=Welcome%20to%20Bigdoor%20IT%20Solutions!%20Redefine%20your%20career%20with%20us.%20We%20are%20excited%20to%20connect%20with%20you!"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed flex items-center px-4 py-2 space-x-2 font-bold text-white transition-all duration-300 bg-green-500 rounded-full shadow-lg bottom-5 right-3 hover:bg-green-600"
+          className="fixed flex items-center md:px-4 md:py-2 px-1 py-1 md:space-x-2 space-x-1 font-medium text-sm md:font-bold text-white transition-all duration-300 bg-green-500 rounded-full shadow-lg bottom-5 right-3 hover:bg-green-600"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +89,7 @@ function Home() {
           >
             <path d="M16.002 2.001c-7.727 0-13.997 6.271-13.997 13.998a13.94 13.94 0 0 0 2.177 7.448l-1.43 5.242 5.367-1.405a13.97 13.97 0 0 0 7.882 2.273c7.726 0 13.997-6.27 13.997-13.998C29.999 8.273 23.729 2 16.002 2.001zM16 26.483a10.455 10.455 0 0 1-5.68-1.656l-.408-.248-3.192.836.851-3.122-.27-.41a10.481 10.481 0 0 1-1.654-5.685c0-5.796 4.716-10.512 10.511-10.512 5.797 0 10.514 4.716 10.514 10.512 0 5.797-4.716 10.515-10.514 10.515zm6.17-7.905c-.337-.168-1.993-.985-2.301-1.098-.307-.113-.53-.169-.752.169-.223.337-.86 1.098-1.054 1.326-.195.228-.39.253-.728.084-.337-.17-1.424-.523-2.714-1.669-1.004-.896-1.68-2.003-1.876-2.34-.195-.337-.02-.52.149-.69.154-.153.338-.39.506-.585.169-.195.223-.337.337-.562.114-.225.057-.42-.028-.585-.085-.17-.752-1.81-1.03-2.48-.271-.651-.548-.563-.752-.563h-.647c-.195 0-.52.057-.792.282-.271.226-1.04 1.015-1.04 2.473 0 1.459 1.065 2.87 1.214 3.065.169.225 2.099 3.204 5.084 4.492.712.308 1.267.491 1.7.627.713.225 1.363.193 1.877.117.571-.084 1.993-.812 2.276-1.598.282-.78.282-1.452.197-1.598-.084-.146-.308-.225-.645-.392z" />
           </svg>
-          <span>WhatsApp</span>
+          <span class="hidden sm:block">WhatsApp</span>
         </a>
 
         <ScrollToTop />
@@ -103,7 +98,7 @@ function Home() {
           <div className="flex flex-col items-center">
             <h3 className='text-[16px] font-inter xl:text-xl font-semibold text-blue-700 underline'>IT SOLUTIONS</h3>
             <h1 className='text-[27px] mb-3  lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora'>What we offer</h1>
-            <p className='text-[14px] md:text-xs lg:text-sm xl:text-base text-center font-inter pb-6 px-0'>
+            <p className='text-[14px] md:text-sm lg:text-sm xl:text-base text-center font-inter pb-6 px-0'>
               Our comprehensive range of services includes web design, mobile app development, SEO,
               social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
             </p>

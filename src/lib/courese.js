@@ -1,6 +1,7 @@
 
 import CourseImg from '../assets/Course Images.png';
 import  CourseImg2 from '../assets/Clock.png';
+import Fullstack from '../assets/fullstack.jpeg';
  
 export const courses = [
   {
@@ -9,7 +10,7 @@ export const courses = [
     description: "Full stack development covers both frontend and backend aspects of applications...",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: Fullstack,
     image1: CourseImg2,
     path: "/courses/Fullstackpage", // Add the unique path
   },

@@ -6,6 +6,8 @@ import ProgramDetails from "./components/programDetails";
 import Welearn from './components/Welearn';
 import Faq from './components/Faq';
 import Feedback from './components/Feedback';
+import ScrollToTop from "./components/TopArrow";
+import WhatsAppButton from "./components/whatsapp";
 
 
 
@@ -44,6 +46,8 @@ const CourseDetails = () => {
                 </div>
 
             </div>
+            <ScrollToTop/>
+            <WhatsAppButton/>
         </>
     )
 }

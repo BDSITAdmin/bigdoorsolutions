@@ -20,8 +20,8 @@ const Footer = () => {
 
               <img src={BigdoorLogo} alt="BigDoor Logo" />
             </Link>
-            <p className="mb-4 text-gray-400">
-              Aliquam rhoncus ligula est, non pulvinar elit convallis nec. Donec mattis odio at.
+            <p className="mb-4 text-gray-400 w-[250px]">
+            #1078 , Ground floor , 6th Cross, Venkatadri Layout , J.P Nagar 4th Phase Bangalore-560076
             </p>
             <div className="flex justify-center space-x-4 lg:justify-start">
               <a className='hover:bg-[#1F5E9E]'>
@@ -52,7 +52,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4">
             <div>
               <h4 className="mb-4 text-lg font-semibold">SERVICES</h4>
               <ul className="space-y-2 text-[#8C94A3]">
