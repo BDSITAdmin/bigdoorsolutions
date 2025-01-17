@@ -14,36 +14,36 @@ const ScaledAFWelearn = () => {
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                     <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
-                                    </span> Introduction</h3>
-                                <p className="ml-8 text-gray-700">Learn fundamentals of programming the world-wide web and its key stakeholders.</p>
+                                    </span> Agile Principles at Scale</h3>
+                                <p className="ml-8 text-gray-700">Applying Agile values and principles across teams, programs, and portfolios in large organizations.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                     Version Control</h3>
-                                <p className="ml-8 text-gray-700">Master version controlling and managing code and assets using Git and GitHub.</p>
+                                    Lean Thinking</h3>
+                                <p className="ml-8 text-gray-700">Emphasizing flow, value delivery, and waste reduction to improve efficiency and outcomes.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                    JavaScript</h3>
-                                <p className="ml-8 text-gray-700">Start with the basics; loops, arrays, and objects, then level up with functions.</p>
+                                    Business Agility</h3>
+                                <p className="ml-8 text-gray-700">Enabling organizations to quickly adapt to market changes and customer demands.</p>
                             </li>
                             <li>
-                                <h3 className="font-inter text-[16px] font-semibold leading-[22px] "><span><img src={BoxImage} className="inline-block mr-2" /></span> Node.js and Express</h3>
-                                <p className="ml-8 text-gray-700">Build scalable, performant, dynamic server-side apps with Node.js and Express.</p>
+                                <h3 className="font-inter text-[16px] font-semibold leading-[22px] "><span><img src={BoxImage} className="inline-block mr-2" /></span> SAFe Framework Levels</h3>
+                                <p className="ml-8 text-gray-700">BStructuring work into Team, Program, Large Solution, and Portfolio levels for scalability and alignment.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                    Software Testing</h3>
-                                <p className="ml-8 text-gray-700">In-depth knowledge of testing, principles, phases, automation, and more.</p>
+                                    Agile Release Trains (ARTs)</h3>
+                                <p className="ml-8 text-gray-700">Coordinated groups of Agile teams delivering incremental value through collaborative effort.</p>
                             </li>
                         </ul>
                     </div>
@@ -54,40 +54,40 @@ const ScaledAFWelearn = () => {
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     Linux Essentials</h3>
-                                <p className="ml-8 text-gray-700">Working in a Linux (bash) environment, key commands, workflows, and techniques.</p>
+                                    Customer-Centricity</h3>
+                                <p className="ml-8 text-gray-700">Prioritizing customer needs to design and deliver impactful solutions.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     HTML5 and CSS3</h3>
-                                <p className="ml-8 text-gray-700">Learn responsive websites with HTML5 and CSS3, key APIs and use cases.</p>
+                                    Value Streams</h3>
+                                <p className="ml-8 text-gray-700">Optimizing the flow of value from ideation to delivery across the organization.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     React</h3>
-                                <p className="ml-8 text-gray-700">Learn Hooks API, SSR, testable components, global state management, and more.</p>
+                                    Continuous Delivery Pipeline</h3>
+                                <p className="ml-8 text-gray-700">Automating and streamlining the flow of work to deliver solutions continuously.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2" />
                                     </span>
-                                    Mongo DB</h3>
-                                <p className="ml-8 text-gray-700">NoSQL database design and implementation with MongoDB, CRUD operations.</p>
+                                    Lean Portfolio Management</h3>
+                                <p className="ml-8 text-gray-700">Aligning investments and work with strategic organizational goals.</p>
                             </li>
                             <li>
                                 <h3 className="font-inter text-[16px] font-semibold leading-[22px] ">
                                 <span>
                                         <img src={BoxImage} alt="CheckCircle" className="inline-block mr-2 " />
                                     </span>
-                                     Agile and Scrum</h3>
-                                <p className="ml-8 text-gray-700">Deep dive into Agile, project management framework, and Scrum's building blocks.</p>
+                                    Leadership in SAFe</h3>
+                                <p className="ml-8 text-gray-700">Driving cultural and organizational change through Lean-Agile leadership.</p>
                             </li>
                         </ul>
                     </div>

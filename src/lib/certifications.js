@@ -1,6 +1,9 @@
 
 import CourseImg from '../assets/Course Images.png';
 import  CourseImg2 from '../assets/Clock.png';
+import C from '../assets/C-image.jpeg';
+import Cplus from '../assets/C++-image.jpg';
+import Oops from '../assets/Oops-image.jpeg';
 
 
 export const Certifications = [
@@ -10,7 +13,7 @@ export const Certifications = [
     description: "Full stack development covers both frontend and backend aspects of applications.",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: C,
     image1: CourseImg2,
     path: "/courses/Cprogpage",
   },
@@ -20,7 +23,7 @@ export const Certifications = [
     description: "MEAN Stack is a full-stack JavaScript solution consisting of MongoDB, Express.js, Angular, and Node.js",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: Cplus,
     image1: CourseImg2,
     path: "/courses/Cpluspage",
   },
@@ -30,7 +33,7 @@ export const Certifications = [
     description: "Full stack development covers both frontend and backend aspects of applications.",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: Oops,
     image1: CourseImg2,
     path: "/courses/Oopspage",
   },

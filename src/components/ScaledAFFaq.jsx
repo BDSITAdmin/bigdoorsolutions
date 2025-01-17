@@ -4,14 +4,19 @@ const ScaledAFFaq = () => {
     // FAQ Data
     const faqs = [
         {
-            question: "What is FSD Bootcamp Program?",
+            question: "Why do organizations adopt SAFe?",
             answer:
-                "The FSD Bootcamp Program is a specialized training course aimed at individuals aspiring to excel in Full Stack Development (FSD). It uniquely combines pre-recorded streaming sessions with live, interactive doubt resolving and master sessions for a holistic learning experience.",
+                "Organizations adopt SAFe to improve collaboration among teams, enhance productivity, align work with strategic goals, deliver customer value faster, and adapt to changing business needs.",
         },
         {
-            question: "How will this bootcamp help me to get a Job?",
+            question: "What is a Program Increment (PI)?",
             answer:
-                "The bootcamp provides in-depth technical training, industry-relevant projects, and career coaching to prepare participants for job opportunities in the tech industry.",
+                "A Program Increment (PI) is a time-boxed period (usually 8–12 weeks) during which teams in an ART deliver incremental value through planned iterations.",
+        },
+        {
+            question: "Is SAFe only for IT or software development teams?",
+            answer:
+                "No. While SAFe is widely used in IT and software, its principles can be applied to various domains, including marketing, HR, and operations, to improve efficiency and alignment.",
         },
     ];
 

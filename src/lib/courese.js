@@ -1,8 +1,9 @@
 
 import CourseImg from '../assets/Course Images.png';
 import  CourseImg2 from '../assets/Clock.png';
-import Fullstack from '../assets/fullstack.jpeg';
- 
+import Fullstack from '../assets/Fullstack-image.jpg';
+import Mern from '../assets/Mern-image.webp';
+import Cloud from '../assets/Cloud-image.jpg';
 export const courses = [
   {
     id: 1,
@@ -17,10 +18,10 @@ export const courses = [
   {
     id: 2,
     title: "MERN Stack",
-    description: "The MERN Stack is a collection of technologies...",
+    description: "The MERN Stack is a collection of technologies, using those technologies to build full-stack applications....",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: Mern,
     image1: CourseImg2,
     path: "/courses/Mernpage",
   },
@@ -30,7 +31,7 @@ export const courses = [
     description: "Cloud Computing is the delivery of various computing services...",
     duration: "16hr",
     badge: "MOST POPULAR",
-    image: CourseImg,
+    image: Cloud,
     image1: CourseImg2,
     path: "/courses/Cloudpage",
   },

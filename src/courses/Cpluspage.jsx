@@ -1,6 +1,6 @@
 import React from "react";
 import EnrollForm from "../components/enrollForm";
-import Trailerimg from "../assets/Trailer.png"
+import Trailerimg from "../assets/C++-image.jpg"
 import ProgramDetails from "../components/programDetails";
 import Feedback from '../components/Feedback';
 import ScrollToTop from "../components/TopArrow";
