@@ -105,10 +105,10 @@ const ProgramDetails = () => {
                 <FiArrowRight className="ml-2" /> {/* Right Arrow Icon */}
               </button>
             </Link>
-            <button className="flex items-center px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
+            {/* <button className="flex items-center px-6 py-3 font-semibold text-yellow-400 transition duration-300 border border-yellow-400 rounded-md hover:bg-yellow-400 hover:text-black">
               <FiPhone className="mr-2" />
               Book a call
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="mt-8 md:mt-0 md:ml-12">

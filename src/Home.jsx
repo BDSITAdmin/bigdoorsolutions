@@ -51,7 +51,7 @@ function Home() {
       <div>
         <div className="md:relative relative">
           <img src={Homepic} alt="Home pic" className="w-full h-auto" />
-          <div className="md:absolute lg:absolute absolute w-[52%] lg:w-[45%] md:w-[47%] md:top-[30px] lg:top-16  lg:left-24 md:left-6 top-[10px] pl-3 ">
+          <div className="md:absolute lg:absolute absolute w-[58%] lg:w-[45%] md:w-[47%] md:top-[30px] lg:top-16  lg:left-24 md:left-6 top-[10px] pl-3 ">
             <h1 className='md:text-[30px] lg:text-[50px]   font-sora font-semibold text-white tracking-[1.5px] leading-tight lg:leading-[64px]'>
               {text}
             </h1>

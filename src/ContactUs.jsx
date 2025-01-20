@@ -16,7 +16,7 @@ const ContactSection = () => {
                         <h1 className="text-2xl md:text-[27px] lg:text-[40px] xl:text-5xl font-semibold font-sora leading-[1.4] tracking-tight text-DavyGrey mt-2 mb-4">
                             We’re here for you
                         </h1>
-                        <p className="text-sm md:text-base text-gray-600 font-inter leading-relaxed">
+                        <p className="text-sm md:text-base text-gray-600 font-inter leading-relaxed w-1/2">
                             Do you have a question? Simply drop us a message, and we’ll get back to you within 24 hours.
                         </p>
                         <span className="block w-14 h-[2px] bg-hexadecimal mt-4"></span>
@@ -50,7 +50,7 @@ const ContactSection = () => {
                                     <img src={location} alt="Location Icon" className="w-8 h-8 md:w-12 md:h-12 " />
                                 </div>
                                 <p className="text-sm md:text-base text-gray-600 font-inter ml-2 sm:ml-4 w-96 p-4">
-                                    No. #1078, Ground floor, 6th Cross, Venkatadri Layout, J.P Nagar 4th Phase, Bangalore - 76
+                                    No. #1078, Ground floor, 6th Cross, Venkatadri Layout, J.P Nagar 4th Phase, Bangalore - 560076
                                 </p>
                             </div>
 
