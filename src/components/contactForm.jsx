@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { FaUser, FaEnvelope, FaCommentDots } from 'react-icons/fa';
+import React, { useState } from "react";
+import { FaUser, FaEnvelope, FaCommentDots } from "react-icons/fa";
 
 const ContactForm = () => {
     const [result, setResult] = useState("");
@@ -8,13 +8,31 @@ const ContactForm = () => {
     // Validation function
     const validateForm = (formData) => {
         const errors = {};
-        if (!formData.get("fullName")) errors.fullName = "Full name is required";
-        if (!formData.get("email")) {
+        const fullName = formData.get("fullName");
+        const email = formData.get("email");
+        const message = formData.get("message");
+
+        // Full Name Validation
+        if (!fullName) {
+            errors.fullName = "Full name is required";
+        } else if (!/^[A-Za-z ]+$/.test(fullName)) {
+            errors.fullName = "Full name must contain only alphabets and spaces";
+        } else if (fullName.length < 3) {
+            errors.fullName = "Full name must have at least 3 characters";
+        }
+
+        // Email Validation
+        if (!email) {
             errors.email = "Email is required";
-        } else if (!/\S+@\S+\.\S+/.test(formData.get("email"))) {
+        } else if (!/\S+@\S+\.\S+/.test(email)) {
             errors.email = "Email is invalid";
         }
-        if (!formData.get("message")) errors.message = "Message is required";
+
+        // Message Validation
+        if (!message) {
+            errors.message = "Message is required";
+        }
+
         return errors;
     };
 

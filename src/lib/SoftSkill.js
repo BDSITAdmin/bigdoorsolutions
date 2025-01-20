@@ -31,7 +31,7 @@ export const SoftSkill  = [
   {
     id: 3,
     title: "Business Etiquette",
-    description: "Business etiquette are the set of behaviors and guidelines that are considered appropriate and professional in a workplace or business setting.",
+    description: "Business etiquette involves professional behavior, respect, and effective communication in the workplace. It helps maintain a positive and productive environment.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: Betiquette,

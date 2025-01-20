@@ -9,6 +9,8 @@ import Services from './components/Services';
 import OurService from './components/ourServices';
 import ContactForm from './components/contactForm';
 import GetQuick from './components/GetQuick'
+import WhatsAppButton from './components/whatsapp';
+import ScrollToTop from './components/TopArrow';
 
 
 
@@ -89,7 +91,9 @@ const ItServices = () => {
           </div>
         </div>
       </div>
-      <GetQuick/>
+      <WhatsAppButton/>
+      <ScrollToTop/>
+      
     </>
   );
 };

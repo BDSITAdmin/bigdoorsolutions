@@ -9,7 +9,7 @@ import CSM from '../assets/CSM-image.jpeg';
 export const ProcessTrainings  = [
   {
     id: 1,
-    title: "Project Management Professional",
+    title: "PMP@Certification",
     description: "A project manager is a professional who organizes, plans, and executes projects while working within restraints like budgets and schedules. Project managers lead entire teams, define project goals, communicate with stakeholders, and see a project through to its closure.",
     duration: "16hr",
     badge: "MOST POPULAR",

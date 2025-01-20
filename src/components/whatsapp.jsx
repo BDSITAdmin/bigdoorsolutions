@@ -7,7 +7,7 @@ const WhatsAppButton = () => {
                 href="https://api.whatsapp.com/send?phone=9632880906&text=Welcome%20to%20Bigdoor%20IT%20Solutions!%20Redefine%20your%20career%20with%20us.%20We%20are%20excited%20to%20connect%20with%20you!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fixed flex items-center px-4 py-2 space-x-2 font-bold text-white transition-all duration-300 bg-green-500 rounded-full shadow-lg bottom-5 right-3 hover:bg-green-600"
+                className="fixed flex items-center md:px-4 md:py-2 px-1 py-1 md:space-x-2 space-x-1 font-medium text-sm md:font-bold text-white transition-all duration-300 bg-green-500 rounded-full shadow-lg bottom-5 right-3 hover:bg-green-600"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -17,8 +17,9 @@ const WhatsAppButton = () => {
                 >
                     <path d="M16.002 2.001c-7.727 0-13.997 6.271-13.997 13.998a13.94 13.94 0 0 0 2.177 7.448l-1.43 5.242 5.367-1.405a13.97 13.97 0 0 0 7.882 2.273c7.726 0 13.997-6.27 13.997-13.998C29.999 8.273 23.729 2 16.002 2.001zM16 26.483a10.455 10.455 0 0 1-5.68-1.656l-.408-.248-3.192.836.851-3.122-.27-.41a10.481 10.481 0 0 1-1.654-5.685c0-5.796 4.716-10.512 10.511-10.512 5.797 0 10.514 4.716 10.514 10.512 0 5.797-4.716 10.515-10.514 10.515zm6.17-7.905c-.337-.168-1.993-.985-2.301-1.098-.307-.113-.53-.169-.752.169-.223.337-.86 1.098-1.054 1.326-.195.228-.39.253-.728.084-.337-.17-1.424-.523-2.714-1.669-1.004-.896-1.68-2.003-1.876-2.34-.195-.337-.02-.52.149-.69.154-.153.338-.39.506-.585.169-.195.223-.337.337-.562.114-.225.057-.42-.028-.585-.085-.17-.752-1.81-1.03-2.48-.271-.651-.548-.563-.752-.563h-.647c-.195 0-.52.057-.792.282-.271.226-1.04 1.015-1.04 2.473 0 1.459 1.065 2.87 1.214 3.065.169.225 2.099 3.204 5.084 4.492.712.308 1.267.491 1.7.627.713.225 1.363.193 1.877.117.571-.084 1.993-.812 2.276-1.598.282-.78.282-1.452.197-1.598-.084-.146-.308-.225-.645-.392z" />
                 </svg>
-                <span>WhatsApp</span>
+                <span class="hidden sm:block">WhatsApp</span>
             </a>
+
         </div>
     );
 };

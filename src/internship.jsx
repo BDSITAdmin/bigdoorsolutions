@@ -11,16 +11,20 @@ import Frame9 from './assets/Frame8.png';
 import Frame10 from './assets/Frame9.png';
 import Pathway from './components/Pathway';
 import ourservices from './assets/ourservices.png';
-import ourservices1 from './assets/ourservices1.png';
-import ourservices2 from './assets/ourservices2.png';
-import ourservices3 from './assets/ourservices3.png';
-import ourservices4 from './assets/ourservices4.png';
+import ourservices1 from './assets/Internship Certificate.jpeg';
+import LifeTimeAcces from './assets/Lifetime access.jpg';
+import ourservices2 from './assets/Variable Program.jpeg';
+import ourservices3 from './assets/Live Projects.jpg';
+import ourservices4 from './assets/Technical Support.jpg';
 import CheckCircle from './assets/CheckCircle.png';
 import AboutImage from './assets/Rectangle 327.png';
 import EligibilitySection from './components/EligibilitySection';
 import { Link } from 'react-router-dom';
 import { FiArrowRight } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
+import ScrollToTop from './components/TopArrow';
+import WhatsAppButton from './components/whatsapp';
+
 
 
 
@@ -43,7 +47,7 @@ const data = [
     id: 3,
     title: 'Lifetime access',
     description: ['Life-time Course Access'],
-    imageUrl: ourservices2,
+    imageUrl: LifeTimeAcces,
     bgColor: 'bg-[#FFE8FE]',
   },
   {
@@ -94,7 +98,7 @@ const ProgramDetails = () => {
           <p className="mb-6 text-[14px] md:text-xs lg:text-sm xl:text-base text-left font-inter  ">
             We know the biggest challenge isn’t finding a job—it’s having the right skills. At BigDoor, we break the roadblocks between academic learning and real-world demands. Get yourself industry-ready with our courses, combining technical knowledge, critical thinking, and communication skills in the right way to open doors to big opportunities.
           </p>
-          <div className="flex flex-col gap-4 sm:flex-row">
+          <div className="flex flex-col flex-wrap content-start gap-4 sm:flex-row">
             <Link to="/course" className="cursor-pointer">
               <button className="flex items-center w-auto px-6 py-3 font-semibold text-black transition duration-300 bg-yellow-400 rounded-md hover:bg-transparent hover:border hover:border-yellow-400 hover:text-yellow-400">
                 Our Courses
@@ -115,11 +119,11 @@ const ProgramDetails = () => {
           />
         </div>
       </section>
-      <section className="flex flex-col items-center justify-center w-full py-12 md:px-12 lg:px-16">
+      <section className="flex flex-col items-center justify-center w-full py-12 md:px-12 lg:px-16 p-3">
         <p className="mb-2 text-[16px] font-inter xl:text-xl font-semibold text-blue-700">
           GETTING YOU READY FOR EVERCHANGING IT INDUSTRY
         </p>
-        <h1 className="text-[27px]   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora ">
+        <h1 className="text-[27px] md:text-sm   lg:text-[40px] xl:mt-5 xl:text-5xl text-DavyGrey font-semibold font-sora ">
           We don't teach for exam results
         </h1>
         <h2 className="text-[#3E93E7] text-[27px] mb-3  lg:text-[40px] xl:mt-3 xl:text-5xl font-semibold font-sora ">
@@ -173,6 +177,8 @@ const ProgramDetails = () => {
       </section>
       <Pathway />
       <EligibilitySection />
+      <ScrollToTop/>
+      <WhatsAppButton/>
 
     </>
   );

@@ -37,7 +37,7 @@ const ScrollToTop = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6"
+            className="md:w-6 md:h-6 w-3 h-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

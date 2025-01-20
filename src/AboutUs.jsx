@@ -4,6 +4,8 @@ import FounderImage from './assets/Group 81.png';
 import TeamMember from './components/TeamMember';
 import Vision from './assets/Vision.png'
 import Mission from './assets/Mission.png'
+import ScrollToTop from './components/TopArrow';
+import WhatsAppButton from './components/whatsapp';
 
 
 const AboutUs = () => {
@@ -137,6 +139,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <WhatsAppButton/>
+      <ScrollToTop/>
       <TeamMember />
 
     </>

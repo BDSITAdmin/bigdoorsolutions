@@ -22,12 +22,12 @@ const TeamMembers = () => {
     { id: 3, name: 'Rajdeep Sinha', title: 'Director & Human Rresource', imgSrc: CardImage2 },
     { id: 4, name: 'Swaroop Kuppa', title: 'Business Devlopment Manager', imgSrc: CardImage3},
     { id: 5, name: 'Sandhya Wadla', title: 'Business Devlopment Manager', imgSrc: CardImage4 },
-    { id: 5, name: 'Mahadeo Kr', title: 'Sr. Frontend Devloper', imgSrc: CardImage5 },
-    { id: 6, name: 'Monu Yadav', title: 'Sr. Frontend Devloper', imgSrc:CardImage6 },
+    { id: 5, name: 'Mahadeo Kr', title: 'Sr. Frontend Devloper', imgSrc: CardImage5, linkedin:"https://www.linkedin.com/in/mahadeo-tanti-82875431a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  },
+    { id: 6, name: 'Monu Yadav', title: 'Sr. Frontend Devloper', imgSrc:CardImage6,linkedin:"https://www.linkedin.com/in/monu-yadav-a4803223a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { id: 7, name: 'Renuka', title: 'Sr. UI/UX Designer', imgSrc: CardImage7 },
-    { id: 8, name: 'Yogesh Mayekar', title: 'Technical Project Manager', imgSrc: CardImage8},
-    { id: 9, name: 'Siddarth Tamse', title: 'Java & Python Devloper', imgSrc:CardImage9 },
-    { id: 9, name: 'Srushti Patil', title: 'DevOps Engineer', imgSrc:CardImage10 },
+    { id: 8, name: 'Yogesh Mayekar', title: 'Technical Project Manager', imgSrc: CardImage8,linkedin:"https://www.linkedin.com/in/mayekaryogesh/"},
+    { id: 9, name: 'Siddarth Tamse', title: 'Java & Python Devloper', imgSrc:CardImage9,linkedin:"https://www.linkedin.com/in/siddharth-tamse-35a392262" },
+    { id: 9, name: 'Srushti Patil', title: 'DevOps Engineer', imgSrc:CardImage10 ,linkedin:"https://www.linkedin.com/in/srushti-patil-655299347/"},
     // { id: 10, name: 'Renuka', title: 'Senior Graphic Designer', imgSrc: CardImage7 },
     // { id: 11, name: 'Swaroop Kuppa', title: 'Director & Human Rresource', imgSrc: CardImage3},
   ];
@@ -60,14 +60,16 @@ const TeamMembers = () => {
 
             <div className="flex justify-center gap-2 mt-4">
               
-              <a href="#" className=" text-blue-500 rounded-full bg-BleuDe" aria-label={`Follow ${member.name} on Instagram`}>
+              <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className=" text-blue-500 rounded-full bg-BleuDe" aria-label={`Follow ${member.name} on Instagram`}>
                 
                 <img src={Instagram} alt="Instagram" className="w-[50px] h-[50px]" />
               </a>
               <a href="#" className=" text-blue-500 rounded-full bg-BleuDe" aria-label={`Follow ${member.name} on Twitter`}>
                 <img src={twitter} alt="Twitter" className="w-[50px] h-[50px]" />
               </a>
-              <a href="#" className=" text-blue-500 rounded-full bg-BleuDe" aria-label={`Follow ${member.name} on LinkedIn`}>
+              <a href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"className=" text-blue-500 rounded-full bg-BleuDe" aria-label={`Follow ${member.name} on LinkedIn`}>
                 <img src={linkedin} alt="LinkedIn" className="w-[50px] h-[50px]" />
               </a>
             </div>
