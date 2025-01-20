@@ -1,9 +1,10 @@
 import React from "react";
-import ourservices from '../assets/ourservices.png';
-import ourservices1 from '../assets/ourservices1.png';
-import ourservices2 from '../assets/ourservices2.png';
-import ourservices3 from '../assets/ourservices3.png';
-import ourservices4 from '../assets/ourservices4.png';
+import ourservices from '../assets/website dvlopment.jpg';
+import ourservices1 from '../assets/MobileAppDevelopment.jpg';
+import ourservices2 from '../assets/web a.jpg';
+import ourservices3 from '../assets/product-engineering.jpg';
+import ourservices4 from '../assets/cd.png';
+import ourservices5 from '../assets/tg copy.jpg';
 import { FaArrowRight } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
@@ -31,7 +32,7 @@ const OurService = ({ imgsrc, text }) => {
         },
         {
             text: 'Technology Consultant',
-            imgsrc: ourservices4
+            imgsrc: ourservices5
         },
 
     ];
@@ -48,7 +49,7 @@ const OurService = ({ imgsrc, text }) => {
 
                         <div className="border rounded-lg  group-hover:shadow-md w-full">
 
-                            <img src={ourservice.imgsrc} alt="hhlloo"></img>
+                            < img src={ourservice.imgsrc} alt="image" className="rounded-lg"></img>
                         </div>
 
                         <div className="border rounded-b-lg flex justify-between p-2  w-full

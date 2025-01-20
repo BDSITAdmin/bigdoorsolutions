@@ -10,7 +10,7 @@ export const Certifications = [
   {
     id: 1,
     title: "C",
-    description: "Full stack development covers both frontend and backend aspects of applications.",
+    description: "A C course teaches the basics of programming using C, focusing on syntax, data structures, and algorithms.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: C,
@@ -30,7 +30,7 @@ export const Certifications = [
   {
     id: 3,
     title: "Oops",
-    description: "Full stack development covers both frontend and backend aspects of applications.",
+    description: "Cloud computing delivers scalable computing resources over the internet, eliminating the need for physical infrastructure.",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: Oops,

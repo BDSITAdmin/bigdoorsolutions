@@ -11,10 +11,11 @@ import Frame9 from './assets/Frame8.png';
 import Frame10 from './assets/Frame9.png';
 import Pathway from './components/Pathway';
 import ourservices from './assets/ourservices.png';
-import ourservices1 from './assets/ourservices1.png';
-import ourservices2 from './assets/ourservices2.png';
-import ourservices3 from './assets/ourservices3.png';
-import ourservices4 from './assets/ourservices4.png';
+import ourservices1 from './assets/Internship Certificate.jpeg';
+import LifeTimeAcces from './assets/Lifetime access.jpg';
+import ourservices2 from './assets/Variable Program.jpeg';
+import ourservices3 from './assets/Live Projects.jpg';
+import ourservices4 from './assets/Technical Support.jpg';
 import CheckCircle from './assets/CheckCircle.png';
 import AboutImage from './assets/Rectangle 327.png';
 import EligibilitySection from './components/EligibilitySection';
@@ -23,6 +24,7 @@ import { FiArrowRight } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
 import ScrollToTop from './components/TopArrow';
 import WhatsAppButton from './components/whatsapp';
+
 
 
 
@@ -45,7 +47,7 @@ const data = [
     id: 3,
     title: 'Lifetime access',
     description: ['Life-time Course Access'],
-    imageUrl: ourservices2,
+    imageUrl: LifeTimeAcces,
     bgColor: 'bg-[#FFE8FE]',
   },
   {

@@ -8,7 +8,7 @@ export const courses = [
   {
     id: 1,
     title: "Full stack Web Development",
-    description: "Full stack development covers both frontend and backend aspects of applications...",
+    description: "Full-stack development involves building both the front-end and back-end of web applications using technologies like JavaScript, Node.js,database..",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: Fullstack,
@@ -28,7 +28,7 @@ export const courses = [
   {
     id: 3,
     title: "Cloud Computing",
-    description: "Cloud Computing is the delivery of various computing services...",
+    description: "Cloud computing provides on-demand access to computing resources like storage and processing over the internet...",
     duration: "16hr",
     badge: "MOST POPULAR",
     image: Cloud,
