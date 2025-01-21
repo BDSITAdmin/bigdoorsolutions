@@ -30,7 +30,7 @@ const ProgramDetails = () => {
           },
           {
             title: '175+',
-            description: '175+ hours of Leranings',
+            description: '175+ hours of Learnings',
             icon: icon4
           },
           {

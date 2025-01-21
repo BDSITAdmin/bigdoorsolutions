@@ -17,7 +17,7 @@ const FullstackDetails = () => {
                 <div className="w-full lg:w-8/12 space-y-5 pt-5 ">
                     <h1 className='text-[28px] lg:text-[40px] xl:text-[44px] font-sora
                      font-semibold  leading-tight lg:leading-[54px]'>
-                        Full Stack Web Devlopments
+                        Full Stack Web Developments
                     </h1>
                     <p>
                         This beginner-friendly Full-Stack Web Development Bootcamp  is your chance to prepare

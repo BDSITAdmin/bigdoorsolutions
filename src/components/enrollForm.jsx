@@ -95,7 +95,7 @@ const EnrollForm = () => {
                             <span className="flex items-center w-1/2 font-semibold">
                                 <GiNetworkBars className='text-customGreen mr-3' /> Course Level
                             </span>
-                            <h3>Intermidiate</h3>
+                            <h3>Intermediate</h3>
                         </div>
                     </div>
 

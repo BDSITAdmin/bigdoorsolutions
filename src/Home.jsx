@@ -15,7 +15,7 @@ function Home() {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const words = ['Welcome to Bigdoor IT Solutions!', 'Solution that drive succes',];
+  const words = ['Welcome to Bigdoor IT Solutions!', 'Solution that drive success',];
   useEffect(() => {
 
     const timeout = setTimeout(() => {

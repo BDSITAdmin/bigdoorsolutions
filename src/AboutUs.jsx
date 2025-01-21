@@ -108,7 +108,7 @@ const AboutUs = () => {
             </div>
             <h3 className="mb-4 text-2xl font-bold text-CetaceanBlue ">Mission</h3>
             <p className="text-[14px] md:text-xs lg:text-sm xl:text-base text-justify font-inter  leading-6 text-soldcolour ">
-              To help individuals achieve their career bjectives with an affluent future by adding value to their training initiatives. We believe in building and delivering training experiences that help attain skills to transform participants to performers and make an honest impact where it matters.
+              To help individuals achieve their career objectives with an affluent future by adding value to their training initiatives. We believe in building and delivering training experiences that help attain skills to transform participants to performers and make an honest impact where it matters.
             </p>
           </div>
           <div className="p-8 bg-white rounded-lg shadow-md">
