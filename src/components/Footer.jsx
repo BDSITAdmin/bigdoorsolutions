@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-500">
-          © 2024 - BigDoor Solutions. All rights reserved.
+          © 2024 - BigDoor IT Solutions. All rights reserved.
         </div>
       </div>
     </footer>
