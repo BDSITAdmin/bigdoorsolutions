@@ -24,6 +24,7 @@ import FullstackDetails from './courses/Fullstackpage.jsx'
 import OopsDetails from './courses/Oopspage.jsx'
 import ProjectMPDetails from './courses/ProjectMPpage.jsx'
 import ScaledAFDetails from './courses/ScaledAFpage.jsx'
+import ScrollOnTop from './components/ScrollToTop.jsx';
 
 
 
@@ -31,6 +32,7 @@ import ScaledAFDetails from './courses/ScaledAFpage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <Router>
+    <ScrollOnTop/>
     <Navbar />
     <Routes> 
       <Route path="/" element={<HomePage />} />   
