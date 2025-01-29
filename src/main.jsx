@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import './index.css';
 import FooterSection from './components/footerSection.jsx';
-import Footer from './components/footer.jsx';
+import Footer from './components/Footer.jsx';
 import ProgramDetails from './internship.jsx';
 import  ItServices from './ItServices.jsx';
 import Course from './course.jsx';
